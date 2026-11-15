@@ -1,0 +1,242 @@
+[
+  {
+    "id": "scene_01",
+    "date": "[YYYY-MM-DD]",
+    "product": "[NISAR product]",
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
+    "files": {
+      "rgb": "assets/scenes/scene_01_rgb.webp",
+      "hh": "...",
+      "hv": "...",
+      "class": "..."
+    }
+  },
+  {
+    "id": "scene_02",
+    "date": "[YYYY-MM-DD]",
+    "product": "[NISAR product]",
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
+    "files": {
+      "rgb": "assets/scenes/scene_02_rgb.webp",
+      "hh": "...",
+      "hv": "...",
+      "class": "..."
+    }
+  },
+  {
+    "id": "scene_03",
+    "date": "[YYYY-MM-DD]",
+    "product": "[NISAR product]",
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
+    "files": {
+      "rgb": "assets/scenes/scene_03_rgb.webp",
+      "hh": "...",
+      "hv": "...",
+      "class": "..."
+    }
+  },
+  {
+    "id": "scene_04",
+    "date": "[YYYY-MM-DD]",
+    "product": "[NISAR product]",
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
+    "files": {
+      "rgb": "assets/scenes/scene_04_rgb.webp",
+      "hh": "...",
+      "hv": "...",
+      "class": "..."
+    }
+  },
+  {
+    "id": "scene_05",
+    "date": "[YYYY-MM-DD]",
+    "product": "[NISAR product]",
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
+    "files": {
+      "rgb": "assets/scenes/scene_05_rgb.webp",
+      "hh": "...",
+      "hv": "...",
+      "class": "..."
+    }
+  },
+  {
+    "id": "scene_06",
+    "date": "[YYYY-MM-DD]",
+    "product": "[NISAR product]",
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
+    "files": {
+      "rgb": "assets/scenes/scene_06_rgb.webp",
+      "hh": "...",
+      "hv": "...",
+      "class": "..."
+    }
+  },
+  {
+    "id": "scene_07",
+    "date": "[YYYY-MM-DD]",
+    "product": "[NISAR product]",
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
+    "files": {
+      "rgb": "assets/scenes/scene_07_rgb.webp",
+      "hh": "...",
+      "hv": "...",
+      "class": "..."
+    }
+  },
+  {
+    "id": "scene_08",
+    "date": "[YYYY-MM-DD]",
+    "product": "[NISAR product]",
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
+    "files": {
+      "rgb": "assets/scenes/scene_08_rgb.webp",
+      "hh": "...",
+      "hv": "...",
+      "class": "..."
+    }
+  },
+  {
+    "id": "scene_09",
+    "date": "[YYYY-MM-DD]",
+    "product": "[NISAR product]",
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
+    "files": {
+      "rgb": "assets/scenes/scene_09_rgb.webp",
+      "hh": "...",
+      "hv": "...",
+      "class": "..."
+    }
+  },
+  {
+    "id": "scene_10",
+    "date": "[YYYY-MM-DD]",
+    "product": "[NISAR product]",
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
+    "files": {
+      "rgb": "assets/scenes/scene_10_rgb.webp",
+      "hh": "...",
+      "hv": "...",
+      "class": "..."
+    }
+  },
+  {
+    "id": "scene_11",
+    "date": "[YYYY-MM-DD]",
+    "product": "[NISAR product]",
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
+    "files": {
+      "rgb": "assets/scenes/scene_11_rgb.webp",
+      "hh": "...",
+      "hv": "...",
+      "class": "..."
+    }
+  },
+  {
+    "id": "scene_12",
+    "date": "[YYYY-MM-DD]",
+    "product": "[NISAR product]",
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
+    "files": {
+      "rgb": "assets/scenes/scene_12_rgb.webp",
+      "hh": "...",
+      "hv": "...",
+      "class": "..."
+    }
+  },
+  {
+    "id": "scene_13",
+    "date": "[YYYY-MM-DD]",
+    "product": "[NISAR product]",
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
+    "files": {
+      "rgb": "assets/scenes/scene_13_rgb.webp",
+      "hh": "...",
+      "hv": "...",
+      "class": "..."
+    }
+  },
+  {
+    "id": "scene_14",
+    "date": "[YYYY-MM-DD]",
+    "product": "[NISAR product]",
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
+    "files": {
+      "rgb": "assets/scenes/scene_14_rgb.webp",
+      "hh": "...",
+      "hv": "...",
+      "class": "..."
+    }
+  },
+  {
+    "id": "scene_15",
+    "date": "[YYYY-MM-DD]",
+    "product": "[NISAR product]",
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
+    "files": {
+      "rgb": "assets/scenes/scene_15_rgb.webp",
+      "hh": "...",
+      "hv": "...",
+      "class": "..."
+    }
+  },
+  {
+    "id": "scene_16",
+    "date": "[YYYY-MM-DD]",
+    "product": "[NISAR product]",
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
+    "files": {
+      "rgb": "assets/scenes/scene_16_rgb.webp",
+      "hh": "...",
+      "hv": "...",
+      "class": "..."
+    }
+  }
+]

@@ -1,0 +1,172 @@
+{
+  "scenes": {
+    "scene_01": {
+      "dense_ha": "[value]",
+      "sparse_ha": "[value]",
+      "water_ha": "[value]",
+      "mean_hv_db": "[value]",
+      "confidence": {
+        "level": "medium",
+        "reason": "[reason]"
+      }
+    },
+    "scene_02": {
+      "dense_ha": "[value]",
+      "sparse_ha": "[value]",
+      "water_ha": "[value]",
+      "mean_hv_db": "[value]",
+      "confidence": {
+        "level": "medium",
+        "reason": "[reason]"
+      }
+    },
+    "scene_03": {
+      "dense_ha": "[value]",
+      "sparse_ha": "[value]",
+      "water_ha": "[value]",
+      "mean_hv_db": "[value]",
+      "confidence": {
+        "level": "medium",
+        "reason": "[reason]"
+      }
+    },
+    "scene_04": {
+      "dense_ha": "[value]",
+      "sparse_ha": "[value]",
+      "water_ha": "[value]",
+      "mean_hv_db": "[value]",
+      "confidence": {
+        "level": "medium",
+        "reason": "[reason]"
+      }
+    },
+    "scene_05": {
+      "dense_ha": "[value]",
+      "sparse_ha": "[value]",
+      "water_ha": "[value]",
+      "mean_hv_db": "[value]",
+      "confidence": {
+        "level": "medium",
+        "reason": "[reason]"
+      }
+    },
+    "scene_06": {
+      "dense_ha": "[value]",
+      "sparse_ha": "[value]",
+      "water_ha": "[value]",
+      "mean_hv_db": "[value]",
+      "confidence": {
+        "level": "medium",
+        "reason": "[reason]"
+      }
+    },
+    "scene_07": {
+      "dense_ha": "[value]",
+      "sparse_ha": "[value]",
+      "water_ha": "[value]",
+      "mean_hv_db": "[value]",
+      "confidence": {
+        "level": "medium",
+        "reason": "[reason]"
+      }
+    },
+    "scene_08": {
+      "dense_ha": "[value]",
+      "sparse_ha": "[value]",
+      "water_ha": "[value]",
+      "mean_hv_db": "[value]",
+      "confidence": {
+        "level": "medium",
+        "reason": "[reason]"
+      }
+    },
+    "scene_09": {
+      "dense_ha": "[value]",
+      "sparse_ha": "[value]",
+      "water_ha": "[value]",
+      "mean_hv_db": "[value]",
+      "confidence": {
+        "level": "medium",
+        "reason": "[reason]"
+      }
+    },
+    "scene_10": {
+      "dense_ha": "[value]",
+      "sparse_ha": "[value]",
+      "water_ha": "[value]",
+      "mean_hv_db": "[value]",
+      "confidence": {
+        "level": "medium",
+        "reason": "[reason]"
+      }
+    },
+    "scene_11": {
+      "dense_ha": "[value]",
+      "sparse_ha": "[value]",
+      "water_ha": "[value]",
+      "mean_hv_db": "[value]",
+      "confidence": {
+        "level": "medium",
+        "reason": "[reason]"
+      }
+    },
+    "scene_12": {
+      "dense_ha": "[value]",
+      "sparse_ha": "[value]",
+      "water_ha": "[value]",
+      "mean_hv_db": "[value]",
+      "confidence": {
+        "level": "medium",
+        "reason": "[reason]"
+      }
+    },
+    "scene_13": {
+      "dense_ha": "[value]",
+      "sparse_ha": "[value]",
+      "water_ha": "[value]",
+      "mean_hv_db": "[value]",
+      "confidence": {
+        "level": "medium",
+        "reason": "[reason]"
+      }
+    },
+    "scene_14": {
+      "dense_ha": "[value]",
+      "sparse_ha": "[value]",
+      "water_ha": "[value]",
+      "mean_hv_db": "[value]",
+      "confidence": {
+        "level": "medium",
+        "reason": "[reason]"
+      }
+    },
+    "scene_15": {
+      "dense_ha": "[value]",
+      "sparse_ha": "[value]",
+      "water_ha": "[value]",
+      "mean_hv_db": "[value]",
+      "confidence": {
+        "level": "medium",
+        "reason": "[reason]"
+      }
+    },
+    "scene_16": {
+      "dense_ha": "[value]",
+      "sparse_ha": "[value]",
+      "water_ha": "[value]",
+      "mean_hv_db": "[value]",
+      "confidence": {
+        "level": "medium",
+        "reason": "[reason]"
+      }
+    }
+  },
+  "pairs": {
+    "scene_03__scene_11": {
+      "decrease_ha": "[value]",
+      "stable_ha": "[value]",
+      "increase_ha": "[value]",
+      "change_map": "assets/scenes/change_03_11.webp"
+    }
+  }
+}

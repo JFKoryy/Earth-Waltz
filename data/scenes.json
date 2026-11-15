@@ -1,242 +1,178 @@
 [
   {
     "id": "scene_01",
-    "date": "[YYYY-MM-DD]",
-    "product": "[NISAR product]",
-    "polarizations": [
-      "HH",
-      "HV"
-    ],
+    "date": "2025-10-29",
+    "version": "X05009",
+    "product": "NISAR L2 GSLC",
+    "polarizations": ["HH", "HV"],
     "files": {
-      "rgb": "assets/scenes/scene_01_rgb.webp",
-      "hh": "...",
-      "hv": "...",
-      "class": "..."
+      "hh": "salida/imagenes/hh_20251029.png",
+      "hv": "salida/imagenes/hv_20251029.png"
     }
   },
   {
     "id": "scene_02",
-    "date": "[YYYY-MM-DD]",
-    "product": "[NISAR product]",
-    "polarizations": [
-      "HH",
-      "HV"
-    ],
+    "date": "2025-11-22",
+    "version": "X05009",
+    "product": "NISAR L2 GSLC",
+    "polarizations": ["HH", "HV"],
     "files": {
-      "rgb": "assets/scenes/scene_02_rgb.webp",
-      "hh": "...",
-      "hv": "...",
-      "class": "..."
+      "hh": "salida/imagenes/hh_20251122.png",
+      "hv": "salida/imagenes/hv_20251122.png"
     }
   },
   {
     "id": "scene_03",
-    "date": "[YYYY-MM-DD]",
-    "product": "[NISAR product]",
-    "polarizations": [
-      "HH",
-      "HV"
-    ],
+    "date": "2025-12-04",
+    "version": "X05009",
+    "product": "NISAR L2 GSLC",
+    "polarizations": ["HH", "HV"],
     "files": {
-      "rgb": "assets/scenes/scene_03_rgb.webp",
-      "hh": "...",
-      "hv": "...",
-      "class": "..."
+      "hh": "salida/imagenes/hh_20251204.png",
+      "hv": "salida/imagenes/hv_20251204.png"
     }
   },
   {
     "id": "scene_04",
-    "date": "[YYYY-MM-DD]",
-    "product": "[NISAR product]",
-    "polarizations": [
-      "HH",
-      "HV"
-    ],
+    "date": "2025-12-16",
+    "version": "X05009",
+    "product": "NISAR L2 GSLC",
+    "polarizations": ["HH", "HV"],
     "files": {
-      "rgb": "assets/scenes/scene_04_rgb.webp",
-      "hh": "...",
-      "hv": "...",
-      "class": "..."
+      "hh": "salida/imagenes/hh_20251216.png",
+      "hv": "salida/imagenes/hv_20251216.png"
     }
   },
   {
     "id": "scene_05",
-    "date": "[YYYY-MM-DD]",
-    "product": "[NISAR product]",
-    "polarizations": [
-      "HH",
-      "HV"
-    ],
+    "date": "2025-12-28",
+    "version": "X05009",
+    "product": "NISAR L2 GSLC",
+    "polarizations": ["HH", "HV"],
     "files": {
-      "rgb": "assets/scenes/scene_05_rgb.webp",
-      "hh": "...",
-      "hv": "...",
-      "class": "..."
+      "hh": "salida/imagenes/hh_20251228.png",
+      "hv": "salida/imagenes/hv_20251228.png"
     }
   },
   {
     "id": "scene_06",
-    "date": "[YYYY-MM-DD]",
-    "product": "[NISAR product]",
-    "polarizations": [
-      "HH",
-      "HV"
-    ],
+    "date": "2026-01-09",
+    "version": "X05009",
+    "product": "NISAR L2 GSLC",
+    "polarizations": ["HH", "HV"],
     "files": {
-      "rgb": "assets/scenes/scene_06_rgb.webp",
-      "hh": "...",
-      "hv": "...",
-      "class": "..."
+      "hh": "salida/imagenes/hh_20260109.png",
+      "hv": "salida/imagenes/hv_20260109.png"
     }
   },
   {
     "id": "scene_07",
-    "date": "[YYYY-MM-DD]",
-    "product": "[NISAR product]",
-    "polarizations": [
-      "HH",
-      "HV"
-    ],
+    "date": "2026-06-26",
+    "version": "P05023",
+    "product": "NISAR L2 GSLC",
+    "polarizations": ["HH", "HV"],
     "files": {
-      "rgb": "assets/scenes/scene_07_rgb.webp",
-      "hh": "...",
-      "hv": "...",
-      "class": "..."
+      "hh": "salida/imagenes/hh_20260626.png",
+      "hv": "salida/imagenes/hv_20260626.png"
     }
   },
   {
     "id": "scene_08",
-    "date": "[YYYY-MM-DD]",
-    "product": "[NISAR product]",
-    "polarizations": [
-      "HH",
-      "HV"
-    ],
+    "date": "2026-07-08",
+    "version": "P05023",
+    "product": "NISAR L2 GSLC",
+    "polarizations": ["HH", "HV"],
     "files": {
-      "rgb": "assets/scenes/scene_08_rgb.webp",
-      "hh": "...",
-      "hv": "...",
-      "class": "..."
+      "hh": "salida/imagenes/hh_20260708.png",
+      "hv": "salida/imagenes/hv_20260708.png"
     }
   },
   {
     "id": "scene_09",
-    "date": "[YYYY-MM-DD]",
-    "product": "[NISAR product]",
-    "polarizations": [
-      "HH",
-      "HV"
-    ],
+    "date": "2026-07-20",
+    "version": "P05023",
+    "product": "NISAR L2 GSLC",
+    "polarizations": ["HH", "HV"],
     "files": {
-      "rgb": "assets/scenes/scene_09_rgb.webp",
-      "hh": "...",
-      "hv": "...",
-      "class": "..."
+      "hh": "salida/imagenes/hh_20260720.png",
+      "hv": "salida/imagenes/hv_20260720.png"
     }
   },
   {
     "id": "scene_10",
-    "date": "[YYYY-MM-DD]",
-    "product": "[NISAR product]",
-    "polarizations": [
-      "HH",
-      "HV"
-    ],
+    "date": "2026-08-13",
+    "version": "P05023",
+    "product": "NISAR L2 GSLC",
+    "polarizations": ["HH", "HV"],
     "files": {
-      "rgb": "assets/scenes/scene_10_rgb.webp",
-      "hh": "...",
-      "hv": "...",
-      "class": "..."
+      "hh": "salida/imagenes/hh_20260813.png",
+      "hv": "salida/imagenes/hv_20260813.png"
     }
   },
   {
     "id": "scene_11",
-    "date": "[YYYY-MM-DD]",
-    "product": "[NISAR product]",
-    "polarizations": [
-      "HH",
-      "HV"
-    ],
+    "date": "2026-08-25",
+    "version": "P05023",
+    "product": "NISAR L2 GSLC",
+    "polarizations": ["HH", "HV"],
     "files": {
-      "rgb": "assets/scenes/scene_11_rgb.webp",
-      "hh": "...",
-      "hv": "...",
-      "class": "..."
+      "hh": "salida/imagenes/hh_20260825.png",
+      "hv": "salida/imagenes/hv_20260825.png"
     }
   },
   {
     "id": "scene_12",
-    "date": "[YYYY-MM-DD]",
-    "product": "[NISAR product]",
-    "polarizations": [
-      "HH",
-      "HV"
-    ],
+    "date": "2026-09-06",
+    "version": "P05023",
+    "product": "NISAR L2 GSLC",
+    "polarizations": ["HH", "HV"],
     "files": {
-      "rgb": "assets/scenes/scene_12_rgb.webp",
-      "hh": "...",
-      "hv": "...",
-      "class": "..."
+      "hh": "salida/imagenes/hh_20260906.png",
+      "hv": "salida/imagenes/hv_20260906.png"
     }
   },
   {
     "id": "scene_13",
-    "date": "[YYYY-MM-DD]",
-    "product": "[NISAR product]",
-    "polarizations": [
-      "HH",
-      "HV"
-    ],
+    "date": "2026-09-18",
+    "version": "P05023",
+    "product": "NISAR L2 GSLC",
+    "polarizations": ["HH", "HV"],
     "files": {
-      "rgb": "assets/scenes/scene_13_rgb.webp",
-      "hh": "...",
-      "hv": "...",
-      "class": "..."
+      "hh": "salida/imagenes/hh_20260918.png",
+      "hv": "salida/imagenes/hv_20260918.png"
     }
   },
   {
     "id": "scene_14",
-    "date": "[YYYY-MM-DD]",
-    "product": "[NISAR product]",
-    "polarizations": [
-      "HH",
-      "HV"
-    ],
+    "date": "2026-09-30",
+    "version": "P05023",
+    "product": "NISAR L2 GSLC",
+    "polarizations": ["HH", "HV"],
     "files": {
-      "rgb": "assets/scenes/scene_14_rgb.webp",
-      "hh": "...",
-      "hv": "...",
-      "class": "..."
+      "hh": "salida/imagenes/hh_20260930.png",
+      "hv": "salida/imagenes/hv_20260930.png"
     }
   },
   {
     "id": "scene_15",
-    "date": "[YYYY-MM-DD]",
-    "product": "[NISAR product]",
-    "polarizations": [
-      "HH",
-      "HV"
-    ],
+    "date": "2026-10-12",
+    "version": "P05023",
+    "product": "NISAR L2 GSLC",
+    "polarizations": ["HH", "HV"],
     "files": {
-      "rgb": "assets/scenes/scene_15_rgb.webp",
-      "hh": "...",
-      "hv": "...",
-      "class": "..."
+      "hh": "salida/imagenes/hh_20261012.png",
+      "hv": "salida/imagenes/hv_20261012.png"
     }
   },
   {
     "id": "scene_16",
-    "date": "[YYYY-MM-DD]",
-    "product": "[NISAR product]",
-    "polarizations": [
-      "HH",
-      "HV"
-    ],
+    "date": "2026-10-24",
+    "version": "P05036",
+    "product": "NISAR L2 GSLC",
+    "polarizations": ["HH", "HV"],
     "files": {
-      "rgb": "assets/scenes/scene_16_rgb.webp",
-      "hh": "...",
-      "hv": "...",
-      "class": "..."
+      "hh": "salida/imagenes/hh_20261024.png",
+      "hv": "salida/imagenes/hv_20261024.png"
     }
   }
 ]

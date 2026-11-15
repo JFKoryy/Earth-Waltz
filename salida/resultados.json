@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-15T08:40:52",
+  "generado": "2026-11-15T13:25:56",
   "configuracion": {
     "umbral_db": -20.78,
     "min_pix": 25,
@@ -249,6 +249,70 @@
       "agua_pct": 53.9
     },
     {
+      "archivo": "NISAR_L2_PR_GSLC_025_011_D_083_4005_DHDH_A_20260708T232729_20260708T232807_P05023_N_F_J_001.h5",
+      "ciclo": "025",
+      "trayecto": "011",
+      "direccion": "D",
+      "marco": "083",
+      "polarizacion": "DHDH",
+      "fecha": "20260708",
+      "version": "P05023",
+      "codigo": "N",
+      "forma": [
+        1312,
+        1015
+      ],
+      "pixel_m": 20.0,
+      "origen": [
+        541212.5,
+        1212567.5
+      ],
+      "limites_leaflet": [
+        [
+          10.731316817684915,
+          -74.62278963617842
+        ],
+        [
+          10.968908962643267,
+          -74.43743659348713
+        ]
+      ],
+      "agua_ha": 28617.3,
+      "agua_pct": 53.7
+    },
+    {
+      "archivo": "NISAR_L2_PR_GSLC_026_011_D_083_4005_DHDH_A_20260720T232729_20260720T232806_P05023_N_F_J_001.h5",
+      "ciclo": "026",
+      "trayecto": "011",
+      "direccion": "D",
+      "marco": "083",
+      "polarizacion": "DHDH",
+      "fecha": "20260720",
+      "version": "P05023",
+      "codigo": "N",
+      "forma": [
+        1312,
+        1015
+      ],
+      "pixel_m": 20.0,
+      "origen": [
+        541212.5,
+        1212567.5
+      ],
+      "limites_leaflet": [
+        [
+          10.731316817684915,
+          -74.62278963617842
+        ],
+        [
+          10.968908962643267,
+          -74.43743659348713
+        ]
+      ],
+      "agua_ha": 28225.1,
+      "agua_pct": 53.0
+    },
+    {
       "archivo": "NISAR_L2_PR_GSLC_028_011_D_083_4005_DHDH_A_20260813T232728_20260813T232805_P05023_N_F_J_001.h5",
       "ciclo": "028",
       "trayecto": "011",
@@ -279,68 +343,308 @@
       ],
       "agua_ha": 27999.1,
       "agua_pct": 52.6
+    },
+    {
+      "archivo": "NISAR_L2_PR_GSLC_029_011_D_083_4005_DHDH_A_20260825T232728_20260825T232805_P05023_N_F_J_001.h5",
+      "ciclo": "029",
+      "trayecto": "011",
+      "direccion": "D",
+      "marco": "083",
+      "polarizacion": "DHDH",
+      "fecha": "20260825",
+      "version": "P05023",
+      "codigo": "N",
+      "forma": [
+        1312,
+        1015
+      ],
+      "pixel_m": 20.0,
+      "origen": [
+        541212.5,
+        1212567.5
+      ],
+      "limites_leaflet": [
+        [
+          10.731316817684915,
+          -74.62278963617842
+        ],
+        [
+          10.968908962643267,
+          -74.43743659348713
+        ]
+      ],
+      "agua_ha": 28225.0,
+      "agua_pct": 53.0
+    },
+    {
+      "archivo": "NISAR_L2_PR_GSLC_030_011_D_083_4005_DHDH_A_20260906T232727_20260906T232804_P05023_N_F_J_001.h5",
+      "ciclo": "030",
+      "trayecto": "011",
+      "direccion": "D",
+      "marco": "083",
+      "polarizacion": "DHDH",
+      "fecha": "20260906",
+      "version": "P05023",
+      "codigo": "N",
+      "forma": [
+        1312,
+        1015
+      ],
+      "pixel_m": 20.0,
+      "origen": [
+        541212.5,
+        1212567.5
+      ],
+      "limites_leaflet": [
+        [
+          10.731316817684915,
+          -74.62278963617842
+        ],
+        [
+          10.968908962643267,
+          -74.43743659348713
+        ]
+      ],
+      "agua_ha": 28573.1,
+      "agua_pct": 53.6
+    },
+    {
+      "archivo": "NISAR_L2_PR_GSLC_031_011_D_083_4005_DHDH_A_20260918T232727_20260918T232804_P05023_F_F_J_001.h5",
+      "ciclo": "031",
+      "trayecto": "011",
+      "direccion": "D",
+      "marco": "083",
+      "polarizacion": "DHDH",
+      "fecha": "20260918",
+      "version": "P05023",
+      "codigo": "F",
+      "forma": [
+        1312,
+        1015
+      ],
+      "pixel_m": 20.0,
+      "origen": [
+        541212.5,
+        1212567.5
+      ],
+      "limites_leaflet": [
+        [
+          10.731316817684915,
+          -74.62278963617842
+        ],
+        [
+          10.968908962643267,
+          -74.43743659348713
+        ]
+      ],
+      "agua_ha": 28807.1,
+      "agua_pct": 54.1
+    },
+    {
+      "archivo": "NISAR_L2_PR_GSLC_032_011_D_083_4005_DHDH_A_20260930T232728_20260930T232805_P05023_N_F_J_001.h5",
+      "ciclo": "032",
+      "trayecto": "011",
+      "direccion": "D",
+      "marco": "083",
+      "polarizacion": "DHDH",
+      "fecha": "20260930",
+      "version": "P05023",
+      "codigo": "N",
+      "forma": [
+        1312,
+        1015
+      ],
+      "pixel_m": 20.0,
+      "origen": [
+        541212.5,
+        1212567.5
+      ],
+      "limites_leaflet": [
+        [
+          10.731316817684915,
+          -74.62278963617842
+        ],
+        [
+          10.968908962643267,
+          -74.43743659348713
+        ]
+      ],
+      "agua_ha": 28010.7,
+      "agua_pct": 52.6
+    },
+    {
+      "archivo": "NISAR_L2_PR_GSLC_033_011_D_083_4005_DHDH_A_20261012T232728_20261012T232805_P05023_N_F_J_001.h5",
+      "ciclo": "033",
+      "trayecto": "011",
+      "direccion": "D",
+      "marco": "083",
+      "polarizacion": "DHDH",
+      "fecha": "20261012",
+      "version": "P05023",
+      "codigo": "N",
+      "forma": [
+        1312,
+        1015
+      ],
+      "pixel_m": 20.0,
+      "origen": [
+        541212.5,
+        1212567.5
+      ],
+      "limites_leaflet": [
+        [
+          10.731316817684915,
+          -74.62278963617842
+        ],
+        [
+          10.968908962643267,
+          -74.43743659348713
+        ]
+      ],
+      "agua_ha": 27973.9,
+      "agua_pct": 52.5
+    },
+    {
+      "archivo": "NISAR_L2_PR_GSLC_034_011_D_083_4005_DHDH_A_20261024T232728_20261024T232805_P05036_N_F_J_001.h5",
+      "ciclo": "034",
+      "trayecto": "011",
+      "direccion": "D",
+      "marco": "083",
+      "polarizacion": "DHDH",
+      "fecha": "20261024",
+      "version": "P05036",
+      "codigo": "N",
+      "forma": [
+        1312,
+        1015
+      ],
+      "pixel_m": 20.0,
+      "origen": [
+        541212.5,
+        1212567.5
+      ],
+      "limites_leaflet": [
+        [
+          10.731316817684915,
+          -74.62278963617842
+        ],
+        [
+          10.968908962643267,
+          -74.43743659348713
+        ]
+      ],
+      "agua_ha": 29042.2,
+      "agua_pct": 54.5
     }
   ],
   "vegetacion_estable": {
-    "ha": 18830.5,
-    "pct_recorte": 35.4
+    "ha": 18329.3,
+    "pct_recorte": 34.4
   },
   "serie_manglar": [
     {
       "fecha": "20251029",
       "version": "X05009",
-      "hv_mediana_db": -16.31,
-      "hh_menos_hv_mediana_db": 7.54
+      "hv_mediana_db": -16.28,
+      "hh_menos_hv_mediana_db": 7.52
     },
     {
       "fecha": "20251122",
       "version": "X05009",
-      "hv_mediana_db": -16.42,
-      "hh_menos_hv_mediana_db": 7.52
+      "hv_mediana_db": -16.39,
+      "hh_menos_hv_mediana_db": 7.5
     },
     {
       "fecha": "20251204",
       "version": "X05009",
-      "hv_mediana_db": -16.3,
-      "hh_menos_hv_mediana_db": 7.54
+      "hv_mediana_db": -16.28,
+      "hh_menos_hv_mediana_db": 7.52
     },
     {
       "fecha": "20251216",
       "version": "X05009",
-      "hv_mediana_db": -16.55,
-      "hh_menos_hv_mediana_db": 7.64
+      "hv_mediana_db": -16.53,
+      "hh_menos_hv_mediana_db": 7.62
     },
     {
       "fecha": "20251228",
       "version": "X05009",
-      "hv_mediana_db": -16.52,
-      "hh_menos_hv_mediana_db": 7.42
+      "hv_mediana_db": -16.49,
+      "hh_menos_hv_mediana_db": 7.39
     },
     {
       "fecha": "20260109",
       "version": "X05009",
-      "hv_mediana_db": -16.64,
-      "hh_menos_hv_mediana_db": 7.37
+      "hv_mediana_db": -16.62,
+      "hh_menos_hv_mediana_db": 7.35
     },
     {
       "fecha": "20260626",
       "version": "P05023",
-      "hv_mediana_db": -15.25,
-      "hh_menos_hv_mediana_db": 6.26
+      "hv_mediana_db": -15.21,
+      "hh_menos_hv_mediana_db": 6.24
+    },
+    {
+      "fecha": "20260708",
+      "version": "P05023",
+      "hv_mediana_db": -15.45,
+      "hh_menos_hv_mediana_db": 6.23
+    },
+    {
+      "fecha": "20260720",
+      "version": "P05023",
+      "hv_mediana_db": -14.94,
+      "hh_menos_hv_mediana_db": 6.23
     },
     {
       "fecha": "20260813",
       "version": "P05023",
-      "hv_mediana_db": -15.05,
-      "hh_menos_hv_mediana_db": 6.18
+      "hv_mediana_db": -15.0,
+      "hh_menos_hv_mediana_db": 6.16
+    },
+    {
+      "fecha": "20260825",
+      "version": "P05023",
+      "hv_mediana_db": -15.17,
+      "hh_menos_hv_mediana_db": 6.2
+    },
+    {
+      "fecha": "20260906",
+      "version": "P05023",
+      "hv_mediana_db": -15.28,
+      "hh_menos_hv_mediana_db": 6.36
+    },
+    {
+      "fecha": "20260918",
+      "version": "P05023",
+      "hv_mediana_db": -15.32,
+      "hh_menos_hv_mediana_db": 6.39
+    },
+    {
+      "fecha": "20260930",
+      "version": "P05023",
+      "hv_mediana_db": -14.4,
+      "hh_menos_hv_mediana_db": 6.27
+    },
+    {
+      "fecha": "20261012",
+      "version": "P05023",
+      "hv_mediana_db": -14.04,
+      "hh_menos_hv_mediana_db": 6.41
+    },
+    {
+      "fecha": "20261024",
+      "version": "P05036",
+      "hv_mediana_db": -14.93,
+      "hh_menos_hv_mediana_db": 6.32
     }
   ],
   "referencia_12_dias": {
     "resumen": {
-      "n": 4,
+      "n": 11,
       "min": 69.1,
-      "mediana": 102.30000000000001,
-      "max": 235.6
+      "mediana": 235.6,
+      "max": 1179.5
     },
     "pares": [
       {
@@ -390,6 +694,90 @@
         "bruto_ha": 121.2,
         "neto_ha": 13.2,
         "bruto_pct_agua_a": 0.39
+      },
+      {
+        "fecha_a": "20260626",
+        "fecha_b": "20260708",
+        "dias": 12,
+        "agua_a_ha": 28726.3,
+        "agua_b_ha": 28617.3,
+        "gano_ha": 97.1,
+        "perdio_ha": 225.7,
+        "bruto_ha": 322.8,
+        "neto_ha": -128.6,
+        "bruto_pct_agua_a": 1.12
+      },
+      {
+        "fecha_a": "20260708",
+        "fecha_b": "20260720",
+        "dias": 12,
+        "agua_a_ha": 28617.3,
+        "agua_b_ha": 28225.1,
+        "gano_ha": 26.9,
+        "perdio_ha": 98.4,
+        "bruto_ha": 125.3,
+        "neto_ha": -71.6,
+        "bruto_pct_agua_a": 0.44
+      },
+      {
+        "fecha_a": "20260813",
+        "fecha_b": "20260825",
+        "dias": 12,
+        "agua_a_ha": 27999.1,
+        "agua_b_ha": 28225.0,
+        "gano_ha": 342.6,
+        "perdio_ha": 176.9,
+        "bruto_ha": 519.6,
+        "neto_ha": 165.7,
+        "bruto_pct_agua_a": 1.86
+      },
+      {
+        "fecha_a": "20260825",
+        "fecha_b": "20260906",
+        "dias": 12,
+        "agua_a_ha": 28225.0,
+        "agua_b_ha": 28573.1,
+        "gano_ha": 196.6,
+        "perdio_ha": 129.5,
+        "bruto_ha": 326.1,
+        "neto_ha": 67.0,
+        "bruto_pct_agua_a": 1.16
+      },
+      {
+        "fecha_a": "20260906",
+        "fecha_b": "20260918",
+        "dias": 12,
+        "agua_a_ha": 28573.1,
+        "agua_b_ha": 28807.1,
+        "gano_ha": 165.8,
+        "perdio_ha": 63.8,
+        "bruto_ha": 229.6,
+        "neto_ha": 102.0,
+        "bruto_pct_agua_a": 0.8
+      },
+      {
+        "fecha_a": "20260918",
+        "fecha_b": "20260930",
+        "dias": 12,
+        "agua_a_ha": 28807.1,
+        "agua_b_ha": 28010.7,
+        "gano_ha": 539.8,
+        "perdio_ha": 639.7,
+        "bruto_ha": 1179.5,
+        "neto_ha": -99.9,
+        "bruto_pct_agua_a": 4.09
+      },
+      {
+        "fecha_a": "20260930",
+        "fecha_b": "20261012",
+        "dias": 12,
+        "agua_a_ha": 28010.7,
+        "agua_b_ha": 27973.9,
+        "gano_ha": 558.6,
+        "perdio_ha": 599.2,
+        "bruto_ha": 1157.8,
+        "neto_ha": -40.6,
+        "bruto_pct_agua_a": 4.13
       }
     ]
   },
@@ -405,35 +793,35 @@
       "bruto_ha": 887.4,
       "neto_ha": -84.8,
       "bruto_pct_agua_a": 2.88,
-      "veces_referencia": 8.67
+      "veces_referencia": 3.77
     },
     {
       "fecha_a": "20260626",
-      "fecha_b": "20260813",
-      "dias": 48,
+      "fecha_b": "20261012",
+      "dias": 108,
       "agua_a_ha": 28726.3,
-      "agua_b_ha": 27999.1,
-      "gano_ha": 262.9,
-      "perdio_ha": 580.2,
-      "bruto_ha": 843.2,
-      "neto_ha": -317.3,
-      "bruto_pct_agua_a": 2.94,
-      "veces_referencia": 8.24
+      "agua_b_ha": 27973.9,
+      "gano_ha": 662.0,
+      "perdio_ha": 829.9,
+      "bruto_ha": 1491.9,
+      "neto_ha": -167.8,
+      "bruto_pct_agua_a": 5.19,
+      "veces_referencia": 6.33
     }
   ],
   "informe": {
     "agua": [
-      "Entre el 29-10-2025 y el 09-01-2026 (72 días) se detectaron 887 ha de cambio en agua abierta (2,9 % del agua inicial), en parches de al menos 1,0 ha: 401 ha pasaron a agua y 486 ha dejaron de serlo (balance de -85 ha). Como referencia, entre escenas consecutivas de 12 días con el mismo procesamiento el cambio fue de 69 a 236 ha (valor central 102 ha, 4 pares). Este cambio equivale a 8,7 veces ese valor central, pero abarca 6,0 veces más tiempo, y un lapso más largo admite más cambio. Esto mide agua abierta y no identifica por sí solo la causa del cambio.",
-      "Entre el 26-06-2026 y el 13-08-2026 (48 días) se detectaron 843 ha de cambio en agua abierta (2,9 % del agua inicial), en parches de al menos 1,0 ha: 263 ha pasaron a agua y 580 ha dejaron de serlo (balance de -317 ha). Como referencia, entre escenas consecutivas de 12 días con el mismo procesamiento el cambio fue de 69 a 236 ha (valor central 102 ha, 4 pares). Este cambio equivale a 8,2 veces ese valor central, pero abarca 4,0 veces más tiempo, y un lapso más largo admite más cambio. Esto mide agua abierta y no identifica por sí solo la causa del cambio."
+      "Entre el 29-10-2025 y el 09-01-2026 (72 días) se detectaron 887 ha de cambio en agua abierta (2,9 % del agua inicial), en parches de al menos 1,0 ha: 401 ha pasaron a agua y 486 ha dejaron de serlo (balance de -85 ha). Como referencia, entre escenas consecutivas de 12 días con el mismo procesamiento el cambio fue de 69 a 1180 ha (valor central 236 ha, 11 pares). Este cambio equivale a 3,8 veces ese valor central, pero abarca 6,0 veces más tiempo, y un lapso más largo admite más cambio. Esto mide agua abierta y no identifica por sí solo la causa del cambio.",
+      "Entre el 26-06-2026 y el 12-10-2026 (108 días) se detectaron 1492 ha de cambio en agua abierta (5,2 % del agua inicial), en parches de al menos 1,0 ha: 662 ha pasaron a agua y 830 ha dejaron de serlo (balance de -168 ha). Como referencia, entre escenas consecutivas de 12 días con el mismo procesamiento el cambio fue de 69 a 1180 ha (valor central 236 ha, 11 pares). Este cambio equivale a 6,3 veces ese valor central, pero abarca 9,0 veces más tiempo, y un lapso más largo admite más cambio. Esto mide agua abierta y no identifica por sí solo la causa del cambio."
     ],
     "manglar": [
-      "Procesamiento P05023: en la vegetación estable (18830 ha, 35 % del recorte) la señal HV mediana varió entre -15,25 y -15,05 dB (0,20 dB de rango) entre el 26-06-2026 y el 13-08-2026. Con estos datos no se puede atribuir esa variación a pérdida de manglar: puede reflejar humedad de la vegetación o del suelo, agua bajo las copas o efectos del instrumento. La vegetación estable incluye otras coberturas además del manglar.",
-      "Procesamiento X05009: en la vegetación estable (18830 ha, 35 % del recorte) la señal HV mediana varió entre -16,64 y -16,30 dB (0,34 dB de rango) entre el 29-10-2025 y el 09-01-2026. Con estos datos no se puede atribuir esa variación a pérdida de manglar: puede reflejar humedad de la vegetación o del suelo, agua bajo las copas o efectos del instrumento. La vegetación estable incluye otras coberturas además del manglar."
+      "Procesamiento P05023: en la vegetación estable (18329 ha, 34 % del recorte) la señal HV mediana varió entre -15,45 y -14,04 dB (1,41 dB de rango) entre el 26-06-2026 y el 12-10-2026. Con estos datos no se puede atribuir esa variación a pérdida de manglar: puede reflejar humedad de la vegetación o del suelo, agua bajo las copas o efectos del instrumento. La vegetación estable incluye otras coberturas además del manglar.",
+      "Procesamiento X05009: en la vegetación estable (18329 ha, 34 % del recorte) la señal HV mediana varió entre -16,62 y -16,28 dB (0,34 dB de rango) entre el 29-10-2025 y el 09-01-2026. Con estos datos no se puede atribuir esa variación a pérdida de manglar: puede reflejar humedad de la vegetación o del suelo, agua bajo las copas o efectos del instrumento. La vegetación estable incluye otras coberturas además del manglar."
     ],
     "avisos": [
+      "20260918: el nombre trae el código 'F' en lugar de 'N'; revisa su significado en la guía de usuario de NISAR antes de usarla.",
       "Hueco de 168 días entre 09-01-2026 y 26-06-2026.",
-      "Hueco de 48 días entre 26-06-2026 y 13-08-2026.",
-      "Hay 2 versiones de procesamiento (P05023, X05009): no se comparan entre sí."
+      "Hay 3 versiones de procesamiento (P05023, P05036, X05009): no se comparan entre sí."
     ]
   }
 }

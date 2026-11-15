@@ -1,172 +1,102 @@
 {
   "scenes": {
-    "scene_01": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_02": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_03": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_04": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_05": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_06": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_07": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_08": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_09": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_10": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_11": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_12": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_13": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_14": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_15": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_16": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    }
+    "scene_01": { "water_ha": 30854.5, "water_pct": 57.9, "mean_hv_db": -16.28, "hh_minus_hv_db": 7.52, "version": "X05009" },
+    "scene_02": { "water_ha": 30792.0, "water_pct": 57.8, "mean_hv_db": -16.39, "hh_minus_hv_db": 7.50, "version": "X05009" },
+    "scene_03": { "water_ha": 30718.9, "water_pct": 57.7, "mean_hv_db": -16.28, "hh_minus_hv_db": 7.52, "version": "X05009" },
+    "scene_04": { "water_ha": 30849.9, "water_pct": 57.9, "mean_hv_db": -16.53, "hh_minus_hv_db": 7.62, "version": "X05009" },
+    "scene_05": { "water_ha": 30717.2, "water_pct": 57.7, "mean_hv_db": -16.49, "hh_minus_hv_db": 7.39, "version": "X05009" },
+    "scene_06": { "water_ha": 30751.0, "water_pct": 57.7, "mean_hv_db": -16.62, "hh_minus_hv_db": 7.35, "version": "X05009" },
+    "scene_07": { "water_ha": 28726.3, "water_pct": 53.9, "mean_hv_db": -15.21, "hh_minus_hv_db": 6.24, "version": "P05023" },
+    "scene_08": { "water_ha": 28617.3, "water_pct": 53.7, "mean_hv_db": -15.45, "hh_minus_hv_db": 6.23, "version": "P05023" },
+    "scene_09": { "water_ha": 28225.1, "water_pct": 53.0, "mean_hv_db": -14.94, "hh_minus_hv_db": 6.23, "version": "P05023" },
+    "scene_10": { "water_ha": 27999.1, "water_pct": 52.6, "mean_hv_db": -15.00, "hh_minus_hv_db": 6.16, "version": "P05023" },
+    "scene_11": { "water_ha": 28225.0, "water_pct": 53.0, "mean_hv_db": -15.17, "hh_minus_hv_db": 6.20, "version": "P05023" },
+    "scene_12": { "water_ha": 28573.1, "water_pct": 53.6, "mean_hv_db": -15.28, "hh_minus_hv_db": 6.36, "version": "P05023" },
+    "scene_13": { "water_ha": 28807.1, "water_pct": 54.1, "mean_hv_db": -15.32, "hh_minus_hv_db": 6.39, "version": "P05023" },
+    "scene_14": { "water_ha": 28010.7, "water_pct": 52.6, "mean_hv_db": -14.40, "hh_minus_hv_db": 6.27, "version": "P05023" },
+    "scene_15": { "water_ha": 27973.9, "water_pct": 52.5, "mean_hv_db": -14.04, "hh_minus_hv_db": 6.41, "version": "P05023" },
+    "scene_16": { "water_ha": 29042.2, "water_pct": 54.5, "mean_hv_db": -14.93, "hh_minus_hv_db": 6.32, "version": "P05036" }
   },
   "pairs": {
-    "scene_03__scene_11": {
-      "decrease_ha": "[value]",
-      "stable_ha": "[value]",
-      "increase_ha": "[value]",
-      "change_map": "assets/scenes/change_03_11.webp"
+    "scene_01__scene_06": {
+      "gained_ha": 401.3, "lost_ha": 486.1, "gross_ha": 887.4, "net_ha": -84.8,
+      "gross_pct": 2.88, "days": 72, "version": "X05009",
+      "change_map": "salida/imagenes/cambio_20251029_20260109.png"
+    },
+    "scene_02__scene_03": {
+      "gained_ha": 124.2, "lost_ha": 111.4, "gross_ha": 235.6, "net_ha": 12.8,
+      "gross_pct": 0.77, "days": 12, "version": "X05009",
+      "change_map": null
+    },
+    "scene_03__scene_04": {
+      "gained_ha": 69.0, "lost_ha": 14.4, "gross_ha": 83.4, "net_ha": 54.6,
+      "gross_pct": 0.27, "days": 12, "version": "X05009",
+      "change_map": null
+    },
+    "scene_04__scene_05": {
+      "gained_ha": 44.5, "lost_ha": 24.6, "gross_ha": 69.1, "net_ha": 20.0,
+      "gross_pct": 0.22, "days": 12, "version": "X05009",
+      "change_map": null
+    },
+    "scene_05__scene_06": {
+      "gained_ha": 67.2, "lost_ha": 54.0, "gross_ha": 121.2, "net_ha": 13.2,
+      "gross_pct": 0.39, "days": 12, "version": "X05009",
+      "change_map": null
+    },
+    "scene_07__scene_15": {
+      "gained_ha": 662.0, "lost_ha": 829.9, "gross_ha": 1491.9, "net_ha": -167.8,
+      "gross_pct": 5.19, "days": 108, "version": "P05023",
+      "change_map": "salida/imagenes/cambio_20260626_20260813.png"
+    },
+    "scene_07__scene_08": {
+      "gained_ha": 97.1, "lost_ha": 225.7, "gross_ha": 322.8, "net_ha": -128.6,
+      "gross_pct": 1.12, "days": 12, "version": "P05023",
+      "change_map": null
+    },
+    "scene_08__scene_09": {
+      "gained_ha": 26.9, "lost_ha": 98.4, "gross_ha": 125.3, "net_ha": -71.6,
+      "gross_pct": 0.44, "days": 12, "version": "P05023",
+      "change_map": null
+    },
+    "scene_10__scene_11": {
+      "gained_ha": 342.6, "lost_ha": 176.9, "gross_ha": 519.6, "net_ha": 165.7,
+      "gross_pct": 1.86, "days": 12, "version": "P05023",
+      "change_map": null
+    },
+    "scene_11__scene_12": {
+      "gained_ha": 196.6, "lost_ha": 129.5, "gross_ha": 326.1, "net_ha": 67.0,
+      "gross_pct": 1.16, "days": 12, "version": "P05023",
+      "change_map": null
+    },
+    "scene_12__scene_13": {
+      "gained_ha": 165.8, "lost_ha": 63.8, "gross_ha": 229.6, "net_ha": 102.0,
+      "gross_pct": 0.80, "days": 12, "version": "P05023",
+      "change_map": null
+    },
+    "scene_13__scene_14": {
+      "gained_ha": 539.8, "lost_ha": 639.7, "gross_ha": 1179.5, "net_ha": -99.9,
+      "gross_pct": 4.09, "days": 12, "version": "P05023",
+      "change_map": null
+    },
+    "scene_14__scene_15": {
+      "gained_ha": 558.6, "lost_ha": 599.2, "gross_ha": 1157.8, "net_ha": -40.6,
+      "gross_pct": 4.13, "days": 12, "version": "P05023",
+      "change_map": null
     }
-  }
+  },
+  "reference_12d": {
+    "X05009": { "n": 4,  "min": 69.1,  "median": 109.8, "max": 235.6 },
+    "P05023": { "n": 7,  "min": 125.3, "median": 326.1, "max": 1179.5 },
+    "P05036": { "n": 0,  "min": null,  "median": null,  "max": null }
+  },
+  "stable_vegetation": {
+    "ha": 18329.3,
+    "pct_recorte": 34.4
+  },
+  "gap_days": 168,
+  "warnings": [
+    "Gap of 168 days between 2026-01-09 and 2026-06-26.",
+    "Three processing versions present (X05009, P05023, P05036): do not compare across versions.",
+    "Scene 2026-09-18 carries code 'F' instead of 'N'; verify its meaning in the NISAR user guide."
+  ]
 }

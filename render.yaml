@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: earth-waltz
+    runtime: node
+    buildCommand: npm ci
+    startCommand: node server.js
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false          # Render will prompt you to enter the value in the dashboard
+      - key: GEMINI_MODEL
+        value: gemini-2.0-flash
+      - key: NODE_VERSION
+        value: "22"

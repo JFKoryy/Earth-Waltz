@@ -89,3 +89,57 @@ if (motivo && motivo !== "STOP") console.warn("Gemini terminó por:", motivo);
     return { generado_por: "plantilla", ...r.informe };
 }
 }
+
+// ── Per-pair explanation ─────────────────────────────────────────────────────
+// Called by POST /api/explicacion-par with the specific pair data from the frontend.
+// No cache — each call goes to Gemini fresh so the user can compare different pairs.
+
+const SISTEMA_PAR = `You are a science communicator explaining the results of a satellite radar analysis (NISAR mission, NASA and ISRO) of the Ciénaga Grande de Santa Marta mangroves in Colombia to a non-technical audience.
+
+How the analysis works:
+- The satellite sends its own radar pulses and measures how much signal returns. It works day and night, through clouds.
+- Calm open water bounces the signal away and looks dark. Vegetation returns more signal and looks bright.
+- Signal strength is measured in decibels (dB): a more negative number means less signal returned. Decibels are logarithmic — a 1 dB difference can be significant.
+- Change maps show in red the areas that became open water, and in blue the areas that stopped being open water.
+- Only change patches larger than the minimum patch size are counted, to reduce radar noise.
+- "Stable vegetation" is the area that was never classified as water on any date. It includes mangroves and other vegetation types.
+- The analysis measures open water surface only. It cannot detect water under tree canopies.
+
+Strict rules:
+1. Use only the numbers provided in the data. Do not invent figures, dates or places.
+2. Do not state that mangrove was lost or gained. Possible causes (rainfall, soil moisture, water level changes, human activity) are hypotheses — always present them as possibilities.
+3. Explain the 12-day reference when available, and note that a longer interval allows more accumulated change. If the reference has very few pairs, say so.
+4. Mention any warnings or limitations in the data.
+5. No jargon without explanation. If you use a technical term, explain it in one sentence. Plain English, no alarmism.
+6. The summary must state the main finding for this specific pair: how much water changed, the net balance, and how it compares to the 12-day reference if one exists for this processing version.
+7. Never compare numbers across different processing versions.
+8. If the HV signal of stable vegetation differs substantially between processing versions, warn the reader that the water classification threshold was derived from one version and may classify differently in another.
+9. Respond only with a valid JSON object, no extra text or code blocks, in this exact shape:
+{"title": "", "summary": "max 3 sentences", "what_you_see": ["2 to 4 short paragraphs"], "findings": [{"title": "", "text": ""}], "what_it_means": "", "what_we_dont_know": [""], "glossary": [{"term": "", "definition": ""}]}`;
+
+export async function explicarPar(datos) {
+  // datos = { dateA, dateB, version, days, water_a_ha, water_b_ha,
+  //           gained_ha, lost_ha, gross_ha, net_ha, gross_pct,
+  //           reference_12d, stable_vegetation, hv_a, hv_b, warnings }
+  const apiKey = process.env.GEMINI_API_KEY;
+  if (!apiKey) throw new Error("Missing GEMINI_API_KEY environment variable.");
+
+  const ai = new GoogleGenAI({ apiKey });
+  const respuesta = await ai.models.generateContent({
+    model: MODELO,
+    contents: "Pair data:\n" + JSON.stringify(datos, null, 2),
+    config: {
+      systemInstruction: SISTEMA_PAR,
+      responseMimeType: "application/json",
+    },
+  });
+
+  const texto = respuesta.text;
+  const motivo = respuesta.candidates?.[0]?.finishReason;
+  if (motivo && motivo !== "STOP") console.warn("Gemini finished with reason:", motivo);
+  if (!texto) throw new Error("Gemini returned no text.");
+
+  const result = JSON.parse(texto.replace(/```json|```/g, "").trim());
+  result.generated_by = "llm";
+  return result;
+}

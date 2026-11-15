@@ -1,172 +1,827 @@
 {
-  "scenes": {
-    "scene_01": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_02": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_03": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_04": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_05": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_06": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_07": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_08": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_09": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_10": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_11": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_12": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_13": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_14": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_15": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    },
-    "scene_16": {
-      "dense_ha": "[value]",
-      "sparse_ha": "[value]",
-      "water_ha": "[value]",
-      "mean_hv_db": "[value]",
-      "confidence": {
-        "level": "medium",
-        "reason": "[reason]"
-      }
-    }
+ "scenes": {
+  "scene_01": {
+   "water_ha": 30854.5,
+   "water_pct": 57.9,
+   "mean_hv_db": -16.28,
+   "hh_minus_hv_db": 7.52,
+   "version": "X05009",
+   "date": "2025-10-29"
   },
-  "pairs": {
-    "scene_03__scene_11": {
-      "decrease_ha": "[value]",
-      "stable_ha": "[value]",
-      "increase_ha": "[value]",
-      "change_map": "assets/scenes/change_03_11.webp"
-    }
+  "scene_02": {
+   "water_ha": 30792.0,
+   "water_pct": 57.8,
+   "mean_hv_db": -16.39,
+   "hh_minus_hv_db": 7.5,
+   "version": "X05009",
+   "date": "2025-11-22"
+  },
+  "scene_03": {
+   "water_ha": 30718.9,
+   "water_pct": 57.7,
+   "mean_hv_db": -16.28,
+   "hh_minus_hv_db": 7.52,
+   "version": "X05009",
+   "date": "2025-12-04"
+  },
+  "scene_04": {
+   "water_ha": 30849.9,
+   "water_pct": 57.9,
+   "mean_hv_db": -16.53,
+   "hh_minus_hv_db": 7.62,
+   "version": "X05009",
+   "date": "2025-12-16"
+  },
+  "scene_05": {
+   "water_ha": 30717.2,
+   "water_pct": 57.7,
+   "mean_hv_db": -16.49,
+   "hh_minus_hv_db": 7.39,
+   "version": "X05009",
+   "date": "2025-12-28"
+  },
+  "scene_06": {
+   "water_ha": 30751.0,
+   "water_pct": 57.7,
+   "mean_hv_db": -16.62,
+   "hh_minus_hv_db": 7.35,
+   "version": "X05009",
+   "date": "2026-01-09"
+  },
+  "scene_07": {
+   "water_ha": 28726.3,
+   "water_pct": 53.9,
+   "mean_hv_db": -15.21,
+   "hh_minus_hv_db": 6.24,
+   "version": "P05023",
+   "date": "2026-06-26"
+  },
+  "scene_08": {
+   "water_ha": 28617.3,
+   "water_pct": 53.7,
+   "mean_hv_db": -15.45,
+   "hh_minus_hv_db": 6.23,
+   "version": "P05023",
+   "date": "2026-07-08"
+  },
+  "scene_09": {
+   "water_ha": 28225.1,
+   "water_pct": 53.0,
+   "mean_hv_db": -14.94,
+   "hh_minus_hv_db": 6.23,
+   "version": "P05023",
+   "date": "2026-07-20"
+  },
+  "scene_10": {
+   "water_ha": 27999.1,
+   "water_pct": 52.6,
+   "mean_hv_db": -15.0,
+   "hh_minus_hv_db": 6.16,
+   "version": "P05023",
+   "date": "2026-08-13"
+  },
+  "scene_11": {
+   "water_ha": 28225.0,
+   "water_pct": 53.0,
+   "mean_hv_db": -15.17,
+   "hh_minus_hv_db": 6.2,
+   "version": "P05023",
+   "date": "2026-08-25"
+  },
+  "scene_12": {
+   "water_ha": 28573.1,
+   "water_pct": 53.6,
+   "mean_hv_db": -15.28,
+   "hh_minus_hv_db": 6.36,
+   "version": "P05023",
+   "date": "2026-09-06"
+  },
+  "scene_13": {
+   "water_ha": 28807.1,
+   "water_pct": 54.1,
+   "mean_hv_db": -15.32,
+   "hh_minus_hv_db": 6.39,
+   "version": "P05023",
+   "date": "2026-09-18"
+  },
+  "scene_14": {
+   "water_ha": 28010.7,
+   "water_pct": 52.6,
+   "mean_hv_db": -14.4,
+   "hh_minus_hv_db": 6.27,
+   "version": "P05023",
+   "date": "2026-09-30"
+  },
+  "scene_15": {
+   "water_ha": 27973.9,
+   "water_pct": 52.5,
+   "mean_hv_db": -14.04,
+   "hh_minus_hv_db": 6.41,
+   "version": "P05023",
+   "date": "2026-10-12"
+  },
+  "scene_16": {
+   "water_ha": 29042.2,
+   "water_pct": 54.5,
+   "mean_hv_db": -14.93,
+   "hh_minus_hv_db": 6.32,
+   "version": "P05036",
+   "date": "2026-10-24"
   }
+ },
+ "pairs": {
+  "scene_01__scene_02": {
+   "gained_ha": 290.0,
+   "lost_ha": 263.0,
+   "gross_ha": 553.0,
+   "net_ha": 27.0,
+   "gross_pct": 1.79,
+   "days": 24,
+   "version": "X05009",
+   "stable_veg_ha": 21091.1,
+   "water_a_ha": 30854.5,
+   "water_b_ha": 30792.0,
+   "change_map": "assets/scenes/change/change_20251029_20251122.png"
+  },
+  "scene_01__scene_03": {
+   "gained_ha": 327.4,
+   "lost_ha": 328.2,
+   "gross_ha": 655.6,
+   "net_ha": -0.8,
+   "gross_pct": 2.12,
+   "days": 36,
+   "version": "X05009",
+   "stable_veg_ha": 21053.6,
+   "water_a_ha": 30854.5,
+   "water_b_ha": 30718.9,
+   "change_map": "assets/scenes/change/change_20251029_20251204.png"
+  },
+  "scene_01__scene_04": {
+   "gained_ha": 356.3,
+   "lost_ha": 333.1,
+   "gross_ha": 689.4,
+   "net_ha": 23.2,
+   "gross_pct": 2.23,
+   "days": 48,
+   "version": "X05009",
+   "stable_veg_ha": 20945.0,
+   "water_a_ha": 30854.5,
+   "water_b_ha": 30849.9,
+   "change_map": "assets/scenes/change/change_20251029_20251216.png"
+  },
+  "scene_01__scene_05": {
+   "gained_ha": 375.0,
+   "lost_ha": 390.9,
+   "gross_ha": 765.9,
+   "net_ha": -15.9,
+   "gross_pct": 2.48,
+   "days": 60,
+   "version": "X05009",
+   "stable_veg_ha": 20958.0,
+   "water_a_ha": 30854.5,
+   "water_b_ha": 30717.2,
+   "change_map": "assets/scenes/change/change_20251029_20251228.png"
+  },
+  "scene_01__scene_06": {
+   "gained_ha": 401.3,
+   "lost_ha": 486.1,
+   "gross_ha": 887.4,
+   "net_ha": -84.8,
+   "gross_pct": 2.88,
+   "days": 72,
+   "version": "X05009",
+   "stable_veg_ha": 20831.3,
+   "water_a_ha": 30854.5,
+   "water_b_ha": 30751.0,
+   "change_map": "assets/scenes/change/change_20251029_20260109.png"
+  },
+  "scene_02__scene_03": {
+   "gained_ha": 124.2,
+   "lost_ha": 111.4,
+   "gross_ha": 235.6,
+   "net_ha": 12.8,
+   "gross_pct": 0.77,
+   "days": 12,
+   "version": "X05009",
+   "stable_veg_ha": 21386.0,
+   "water_a_ha": 30792.0,
+   "water_b_ha": 30718.9,
+   "change_map": "assets/scenes/change/change_20251122_20251204.png"
+  },
+  "scene_02__scene_04": {
+   "gained_ha": 182.6,
+   "lost_ha": 122.7,
+   "gross_ha": 305.3,
+   "net_ha": 59.9,
+   "gross_pct": 0.99,
+   "days": 24,
+   "version": "X05009",
+   "stable_veg_ha": 21242.9,
+   "water_a_ha": 30792.0,
+   "water_b_ha": 30849.9,
+   "change_map": "assets/scenes/change/change_20251122_20251216.png"
+  },
+  "scene_02__scene_05": {
+   "gained_ha": 218.2,
+   "lost_ha": 165.6,
+   "gross_ha": 383.8,
+   "net_ha": 52.6,
+   "gross_pct": 1.25,
+   "days": 36,
+   "version": "X05009",
+   "stable_veg_ha": 21203.4,
+   "water_a_ha": 30792.0,
+   "water_b_ha": 30717.2,
+   "change_map": "assets/scenes/change/change_20251122_20251228.png"
+  },
+  "scene_02__scene_06": {
+   "gained_ha": 252.1,
+   "lost_ha": 260.4,
+   "gross_ha": 512.5,
+   "net_ha": -8.3,
+   "gross_pct": 1.66,
+   "days": 48,
+   "version": "X05009",
+   "stable_veg_ha": 21069.9,
+   "water_a_ha": 30792.0,
+   "water_b_ha": 30751.0,
+   "change_map": "assets/scenes/change/change_20251122_20260109.png"
+  },
+  "scene_03__scene_04": {
+   "gained_ha": 69.0,
+   "lost_ha": 14.4,
+   "gross_ha": 83.4,
+   "net_ha": 54.6,
+   "gross_pct": 0.27,
+   "days": 12,
+   "version": "X05009",
+   "stable_veg_ha": 21442.7,
+   "water_a_ha": 30718.9,
+   "water_b_ha": 30849.9,
+   "change_map": "assets/scenes/change/change_20251204_20251216.png"
+  },
+  "scene_03__scene_05": {
+   "gained_ha": 120.6,
+   "lost_ha": 51.8,
+   "gross_ha": 172.4,
+   "net_ha": 68.8,
+   "gross_pct": 0.56,
+   "days": 24,
+   "version": "X05009",
+   "stable_veg_ha": 21405.2,
+   "water_a_ha": 30718.9,
+   "water_b_ha": 30717.2,
+   "change_map": "assets/scenes/change/change_20251204_20251228.png"
+  },
+  "scene_03__scene_06": {
+   "gained_ha": 179.4,
+   "lost_ha": 178.3,
+   "gross_ha": 357.7,
+   "net_ha": 1.1,
+   "gross_pct": 1.16,
+   "days": 36,
+   "version": "X05009",
+   "stable_veg_ha": 21262.0,
+   "water_a_ha": 30718.9,
+   "water_b_ha": 30751.0,
+   "change_map": "assets/scenes/change/change_20251204_20260109.png"
+  },
+  "scene_04__scene_05": {
+   "gained_ha": 44.5,
+   "lost_ha": 24.6,
+   "gross_ha": 69.1,
+   "net_ha": 19.9,
+   "gross_pct": 0.22,
+   "days": 12,
+   "version": "X05009",
+   "stable_veg_ha": 21432.0,
+   "water_a_ha": 30849.9,
+   "water_b_ha": 30717.2,
+   "change_map": "assets/scenes/change/change_20251216_20251228.png"
+  },
+  "scene_04__scene_06": {
+   "gained_ha": 100.1,
+   "lost_ha": 124.9,
+   "gross_ha": 225.0,
+   "net_ha": -24.8,
+   "gross_pct": 0.73,
+   "days": 24,
+   "version": "X05009",
+   "stable_veg_ha": 21237.0,
+   "water_a_ha": 30849.9,
+   "water_b_ha": 30751.0,
+   "change_map": "assets/scenes/change/change_20251216_20260109.png"
+  },
+  "scene_05__scene_06": {
+   "gained_ha": 67.2,
+   "lost_ha": 54.0,
+   "gross_ha": 121.2,
+   "net_ha": 13.2,
+   "gross_pct": 0.39,
+   "days": 12,
+   "version": "X05009",
+   "stable_veg_ha": 21430.4,
+   "water_a_ha": 30717.2,
+   "water_b_ha": 30751.0,
+   "change_map": "assets/scenes/change/change_20251228_20260109.png"
+  },
+  "scene_07__scene_08": {
+   "gained_ha": 97.1,
+   "lost_ha": 225.7,
+   "gross_ha": 322.8,
+   "net_ha": -128.6,
+   "gross_pct": 1.12,
+   "days": 12,
+   "version": "P05023",
+   "stable_veg_ha": 23534.7,
+   "water_a_ha": 28726.3,
+   "water_b_ha": 28617.3,
+   "change_map": "assets/scenes/change/change_20260626_20260708.png"
+  },
+  "scene_07__scene_09": {
+   "gained_ha": 124.6,
+   "lost_ha": 364.2,
+   "gross_ha": 488.8,
+   "net_ha": -239.6,
+   "gross_pct": 1.7,
+   "days": 24,
+   "version": "P05023",
+   "stable_veg_ha": 23632.8,
+   "water_a_ha": 28726.3,
+   "water_b_ha": 28225.1,
+   "change_map": "assets/scenes/change/change_20260626_20260720.png"
+  },
+  "scene_07__scene_10": {
+   "gained_ha": 262.9,
+   "lost_ha": 580.2,
+   "gross_ha": 843.1,
+   "net_ha": -317.3,
+   "gross_pct": 2.93,
+   "days": 48,
+   "version": "P05023",
+   "stable_veg_ha": 23420.8,
+   "water_a_ha": 28726.3,
+   "water_b_ha": 27999.1,
+   "change_map": "assets/scenes/change/change_20260626_20260813.png"
+  },
+  "scene_07__scene_11": {
+   "gained_ha": 402.0,
+   "lost_ha": 583.3,
+   "gross_ha": 985.3,
+   "net_ha": -181.3,
+   "gross_pct": 3.43,
+   "days": 60,
+   "version": "P05023",
+   "stable_veg_ha": 23253.9,
+   "water_a_ha": 28726.3,
+   "water_b_ha": 28225.0,
+   "change_map": "assets/scenes/change/change_20260626_20260825.png"
+  },
+  "scene_07__scene_12": {
+   "gained_ha": 522.7,
+   "lost_ha": 575.9,
+   "gross_ha": 1098.6,
+   "net_ha": -53.2,
+   "gross_pct": 3.82,
+   "days": 72,
+   "version": "P05023",
+   "stable_veg_ha": 23024.1,
+   "water_a_ha": 28726.3,
+   "water_b_ha": 28573.1,
+   "change_map": "assets/scenes/change/change_20260626_20260906.png"
+  },
+  "scene_07__scene_13": {
+   "gained_ha": 637.9,
+   "lost_ha": 511.9,
+   "gross_ha": 1149.8,
+   "net_ha": 126.0,
+   "gross_pct": 4.0,
+   "days": 84,
+   "version": "P05023",
+   "stable_veg_ha": 22905.0,
+   "water_a_ha": 28726.3,
+   "water_b_ha": 28807.1,
+   "change_map": "assets/scenes/change/change_20260626_20260918.png"
+  },
+  "scene_07__scene_14": {
+   "gained_ha": 677.0,
+   "lost_ha": 763.1,
+   "gross_ha": 1440.1,
+   "net_ha": -86.1,
+   "gross_pct": 5.01,
+   "days": 96,
+   "version": "P05023",
+   "stable_veg_ha": 23019.8,
+   "water_a_ha": 28726.3,
+   "water_b_ha": 28010.7,
+   "change_map": "assets/scenes/change/change_20260626_20260930.png"
+  },
+  "scene_07__scene_15": {
+   "gained_ha": 662.0,
+   "lost_ha": 829.9,
+   "gross_ha": 1491.9,
+   "net_ha": -167.9,
+   "gross_pct": 5.19,
+   "days": 108,
+   "version": "P05023",
+   "stable_veg_ha": 22968.6,
+   "water_a_ha": 28726.3,
+   "water_b_ha": 27973.9,
+   "change_map": "assets/scenes/change/change_20260626_20261012.png"
+  },
+  "scene_08__scene_09": {
+   "gained_ha": 26.9,
+   "lost_ha": 98.4,
+   "gross_ha": 125.3,
+   "net_ha": -71.5,
+   "gross_pct": 0.44,
+   "days": 12,
+   "version": "P05023",
+   "stable_veg_ha": 23889.2,
+   "water_a_ha": 28617.3,
+   "water_b_ha": 28225.1,
+   "change_map": "assets/scenes/change/change_20260708_20260720.png"
+  },
+  "scene_08__scene_10": {
+   "gained_ha": 214.9,
+   "lost_ha": 407.0,
+   "gross_ha": 621.9,
+   "net_ha": -192.1,
+   "gross_pct": 2.17,
+   "days": 36,
+   "version": "P05023",
+   "stable_veg_ha": 23559.7,
+   "water_a_ha": 28617.3,
+   "water_b_ha": 27999.1,
+   "change_map": "assets/scenes/change/change_20260708_20260813.png"
+  },
+  "scene_08__scene_11": {
+   "gained_ha": 356.3,
+   "lost_ha": 383.1,
+   "gross_ha": 739.4,
+   "net_ha": -26.8,
+   "gross_pct": 2.58,
+   "days": 48,
+   "version": "P05023",
+   "stable_veg_ha": 23421.4,
+   "water_a_ha": 28617.3,
+   "water_b_ha": 28225.0,
+   "change_map": "assets/scenes/change/change_20260708_20260825.png"
+  },
+  "scene_08__scene_12": {
+   "gained_ha": 504.1,
+   "lost_ha": 407.7,
+   "gross_ha": 911.8,
+   "net_ha": 96.4,
+   "gross_pct": 3.19,
+   "days": 60,
+   "version": "P05023",
+   "stable_veg_ha": 23163.3,
+   "water_a_ha": 28617.3,
+   "water_b_ha": 28573.1,
+   "change_map": "assets/scenes/change/change_20260708_20260906.png"
+  },
+  "scene_08__scene_13": {
+   "gained_ha": 627.8,
+   "lost_ha": 391.6,
+   "gross_ha": 1019.4,
+   "net_ha": 236.2,
+   "gross_pct": 3.56,
+   "days": 72,
+   "version": "P05023",
+   "stable_veg_ha": 23003.6,
+   "water_a_ha": 28617.3,
+   "water_b_ha": 28807.1,
+   "change_map": "assets/scenes/change/change_20260708_20260918.png"
+  },
+  "scene_08__scene_14": {
+   "gained_ha": 782.6,
+   "lost_ha": 731.9,
+   "gross_ha": 1514.5,
+   "net_ha": 50.7,
+   "gross_pct": 5.29,
+   "days": 84,
+   "version": "P05023",
+   "stable_veg_ha": 23039.6,
+   "water_a_ha": 28617.3,
+   "water_b_ha": 28010.7,
+   "change_map": "assets/scenes/change/change_20260708_20260930.png"
+  },
+  "scene_08__scene_15": {
+   "gained_ha": 826.6,
+   "lost_ha": 866.5,
+   "gross_ha": 1693.1,
+   "net_ha": -39.9,
+   "gross_pct": 5.92,
+   "days": 96,
+   "version": "P05023",
+   "stable_veg_ha": 22954.3,
+   "water_a_ha": 28617.3,
+   "water_b_ha": 27973.9,
+   "change_map": "assets/scenes/change/change_20260708_20261012.png"
+  },
+  "scene_09__scene_10": {
+   "gained_ha": 247.3,
+   "lost_ha": 288.2,
+   "gross_ha": 535.5,
+   "net_ha": -40.9,
+   "gross_pct": 1.9,
+   "days": 24,
+   "version": "P05023",
+   "stable_veg_ha": 23867.0,
+   "water_a_ha": 28225.1,
+   "water_b_ha": 27999.1,
+   "change_map": "assets/scenes/change/change_20260720_20260813.png"
+  },
+  "scene_09__scene_11": {
+   "gained_ha": 421.0,
+   "lost_ha": 282.4,
+   "gross_ha": 703.4,
+   "net_ha": 138.6,
+   "gross_pct": 2.49,
+   "days": 36,
+   "version": "P05023",
+   "stable_veg_ha": 23671.8,
+   "water_a_ha": 28225.1,
+   "water_b_ha": 28225.0,
+   "change_map": "assets/scenes/change/change_20260720_20260825.png"
+  },
+  "scene_09__scene_12": {
+   "gained_ha": 579.8,
+   "lost_ha": 321.5,
+   "gross_ha": 901.3,
+   "net_ha": 258.3,
+   "gross_pct": 3.19,
+   "days": 48,
+   "version": "P05023",
+   "stable_veg_ha": 23418.4,
+   "water_a_ha": 28225.1,
+   "water_b_ha": 28573.1,
+   "change_map": "assets/scenes/change/change_20260720_20260906.png"
+  },
+  "scene_09__scene_13": {
+   "gained_ha": 765.2,
+   "lost_ha": 325.2,
+   "gross_ha": 1090.4,
+   "net_ha": 440.0,
+   "gross_pct": 3.86,
+   "days": 60,
+   "version": "P05023",
+   "stable_veg_ha": 23222.4,
+   "water_a_ha": 28225.1,
+   "water_b_ha": 28807.1,
+   "change_map": "assets/scenes/change/change_20260720_20260918.png"
+  },
+  "scene_09__scene_14": {
+   "gained_ha": 963.5,
+   "lost_ha": 634.6,
+   "gross_ha": 1598.1,
+   "net_ha": 328.9,
+   "gross_pct": 5.66,
+   "days": 72,
+   "version": "P05023",
+   "stable_veg_ha": 23248.2,
+   "water_a_ha": 28225.1,
+   "water_b_ha": 28010.7,
+   "change_map": "assets/scenes/change/change_20260720_20260930.png"
+  },
+  "scene_09__scene_15": {
+   "gained_ha": 1003.5,
+   "lost_ha": 755.1,
+   "gross_ha": 1758.6,
+   "net_ha": 248.4,
+   "gross_pct": 6.23,
+   "days": 84,
+   "version": "P05023",
+   "stable_veg_ha": 23149.5,
+   "water_a_ha": 28225.1,
+   "water_b_ha": 27973.9,
+   "change_map": "assets/scenes/change/change_20260720_20261012.png"
+  },
+  "scene_10__scene_11": {
+   "gained_ha": 342.6,
+   "lost_ha": 176.9,
+   "gross_ha": 519.5,
+   "net_ha": 165.7,
+   "gross_pct": 1.86,
+   "days": 12,
+   "version": "P05023",
+   "stable_veg_ha": 23784.4,
+   "water_a_ha": 27999.1,
+   "water_b_ha": 28225.0,
+   "change_map": "assets/scenes/change/change_20260813_20260825.png"
+  },
+  "scene_10__scene_12": {
+   "gained_ha": 429.4,
+   "lost_ha": 156.6,
+   "gross_ha": 586.0,
+   "net_ha": 272.8,
+   "gross_pct": 2.09,
+   "days": 24,
+   "version": "P05023",
+   "stable_veg_ha": 23604.1,
+   "water_a_ha": 27999.1,
+   "water_b_ha": 28573.1,
+   "change_map": "assets/scenes/change/change_20260813_20260906.png"
+  },
+  "scene_10__scene_13": {
+   "gained_ha": 577.4,
+   "lost_ha": 166.4,
+   "gross_ha": 743.8,
+   "net_ha": 411.0,
+   "gross_pct": 2.66,
+   "days": 36,
+   "version": "P05023",
+   "stable_veg_ha": 23404.4,
+   "water_a_ha": 27999.1,
+   "water_b_ha": 28807.1,
+   "change_map": "assets/scenes/change/change_20260813_20260918.png"
+  },
+  "scene_10__scene_14": {
+   "gained_ha": 899.3,
+   "lost_ha": 536.2,
+   "gross_ha": 1435.5,
+   "net_ha": 363.1,
+   "gross_pct": 5.13,
+   "days": 48,
+   "version": "P05023",
+   "stable_veg_ha": 23360.0,
+   "water_a_ha": 27999.1,
+   "water_b_ha": 28010.7,
+   "change_map": "assets/scenes/change/change_20260813_20260930.png"
+  },
+  "scene_10__scene_15": {
+   "gained_ha": 949.2,
+   "lost_ha": 657.0,
+   "gross_ha": 1606.2,
+   "net_ha": 292.2,
+   "gross_pct": 5.74,
+   "days": 60,
+   "version": "P05023",
+   "stable_veg_ha": 23230.8,
+   "water_a_ha": 27999.1,
+   "water_b_ha": 27973.9,
+   "change_map": "assets/scenes/change/change_20260813_20261012.png"
+  },
+  "scene_11__scene_12": {
+   "gained_ha": 196.6,
+   "lost_ha": 129.5,
+   "gross_ha": 326.1,
+   "net_ha": 67.1,
+   "gross_pct": 1.16,
+   "days": 12,
+   "version": "P05023",
+   "stable_veg_ha": 23706.0,
+   "water_a_ha": 28225.0,
+   "water_b_ha": 28573.1,
+   "change_map": "assets/scenes/change/change_20260825_20260906.png"
+  },
+  "scene_11__scene_13": {
+   "gained_ha": 384.8,
+   "lost_ha": 156.0,
+   "gross_ha": 540.8,
+   "net_ha": 228.8,
+   "gross_pct": 1.92,
+   "days": 24,
+   "version": "P05023",
+   "stable_veg_ha": 23455.9,
+   "water_a_ha": 28225.0,
+   "water_b_ha": 28807.1,
+   "change_map": "assets/scenes/change/change_20260825_20260918.png"
+  },
+  "scene_11__scene_14": {
+   "gained_ha": 762.2,
+   "lost_ha": 565.6,
+   "gross_ha": 1327.8,
+   "net_ha": 196.6,
+   "gross_pct": 4.7,
+   "days": 36,
+   "version": "P05023",
+   "stable_veg_ha": 23328.7,
+   "water_a_ha": 28225.0,
+   "water_b_ha": 28010.7,
+   "change_map": "assets/scenes/change/change_20260825_20260930.png"
+  },
+  "scene_11__scene_15": {
+   "gained_ha": 840.2,
+   "lost_ha": 676.7,
+   "gross_ha": 1516.9,
+   "net_ha": 163.5,
+   "gross_pct": 5.37,
+   "days": 48,
+   "version": "P05023",
+   "stable_veg_ha": 23211.1,
+   "water_a_ha": 28225.0,
+   "water_b_ha": 27973.9,
+   "change_map": "assets/scenes/change/change_20260825_20261012.png"
+  },
+  "scene_12__scene_13": {
+   "gained_ha": 165.8,
+   "lost_ha": 63.8,
+   "gross_ha": 229.6,
+   "net_ha": 102.0,
+   "gross_pct": 0.8,
+   "days": 12,
+   "version": "P05023",
+   "stable_veg_ha": 23499.3,
+   "water_a_ha": 28573.1,
+   "water_b_ha": 28807.1,
+   "change_map": "assets/scenes/change/change_20260906_20260918.png"
+  },
+  "scene_12__scene_14": {
+   "gained_ha": 695.3,
+   "lost_ha": 610.3,
+   "gross_ha": 1305.6,
+   "net_ha": 85.0,
+   "gross_pct": 4.57,
+   "days": 24,
+   "version": "P05023",
+   "stable_veg_ha": 23176.3,
+   "water_a_ha": 28573.1,
+   "water_b_ha": 28010.7,
+   "change_map": "assets/scenes/change/change_20260906_20260930.png"
+  },
+  "scene_12__scene_15": {
+   "gained_ha": 722.0,
+   "lost_ha": 678.6,
+   "gross_ha": 1400.6,
+   "net_ha": 43.4,
+   "gross_pct": 4.9,
+   "days": 36,
+   "version": "P05023",
+   "stable_veg_ha": 23085.6,
+   "water_a_ha": 28573.1,
+   "water_b_ha": 27973.9,
+   "change_map": "assets/scenes/change/change_20260906_20261012.png"
+  },
+  "scene_13__scene_14": {
+   "gained_ha": 539.8,
+   "lost_ha": 639.7,
+   "gross_ha": 1179.5,
+   "net_ha": -99.9,
+   "gross_pct": 4.09,
+   "days": 12,
+   "version": "P05023",
+   "stable_veg_ha": 23139.5,
+   "water_a_ha": 28807.1,
+   "water_b_ha": 28010.7,
+   "change_map": "assets/scenes/change/change_20260918_20260930.png"
+  },
+  "scene_13__scene_15": {
+   "gained_ha": 550.7,
+   "lost_ha": 686.3,
+   "gross_ha": 1237.0,
+   "net_ha": -135.6,
+   "gross_pct": 4.29,
+   "days": 24,
+   "version": "P05023",
+   "stable_veg_ha": 23076.6,
+   "water_a_ha": 28807.1,
+   "water_b_ha": 27973.9,
+   "change_map": "assets/scenes/change/change_20260918_20261012.png"
+  },
+  "scene_14__scene_15": {
+   "gained_ha": 558.6,
+   "lost_ha": 599.2,
+   "gross_ha": 1157.8,
+   "net_ha": -40.6,
+   "gross_pct": 4.13,
+   "days": 12,
+   "version": "P05023",
+   "stable_veg_ha": 23459.6,
+   "water_a_ha": 28010.7,
+   "water_b_ha": 27973.9,
+   "change_map": "assets/scenes/change/change_20260930_20261012.png"
+  }
+ },
+ "reference_12d": {
+  "X05009": {
+   "n": 4,
+   "min": 69.1,
+   "median": 109.8,
+   "max": 235.6
+  },
+  "P05023": {
+   "n": 7,
+   "min": 125.3,
+   "median": 326.1,
+   "max": 1179.5
+  },
+  "P05036": {
+   "n": 0,
+   "min": null,
+   "median": null,
+   "max": null
+  }
+ },
+ "stable_vegetation": {
+  "ha": 18329.3,
+  "pct_recorte": 34.4
+ },
+ "gap_days": 168,
+ "warnings": [
+  "Gap of 168 days between 2026-01-09 and 2026-06-26.",
+  "Three processing versions present (X05009, P05023, P05036): do not compare across versions.",
+  "Scene 2026-09-18 carries code 'F' instead of 'N'; verify its meaning in the NISAR user guide."
+ ]
 }

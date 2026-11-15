@@ -261,3 +261,22 @@ body.lv-student [data-level~="student"],body.lv-technical [data-level~="technica
   *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
   .reveal{opacity:1;transform:none}.motion-note{display:block}
 }
+
+/* ── Version selector (timeline) ─────────────────────────────────────────── */
+.tl-ver-btn {
+  display:inline-flex; align-items:center;
+  font:600 .8rem var(--font-mono); padding:.4rem .95rem;
+  border-radius:999px; border:1.5px solid var(--vc, #9FB8C0);
+  color:var(--vc, #9FB8C0); background:transparent;
+  cursor:pointer; transition:background .15s, color .15s;
+}
+.tl-ver-btn.active, .tl-ver-btn[aria-pressed="true"] {
+  background:var(--vc, #9FB8C0); color:var(--petrol-deep);
+}
+.tl-ver-btn:hover:not(.active) {
+  background:color-mix(in srgb, var(--vc) 15%, transparent);
+}
+/* Timeline dots honour version colour */
+#timeline .tl { --vc: #2EE6F6; }
+#timeline .tl .dot { background:var(--vc); }
+#timeline .tl.a .dot, #timeline .tl.b .dot { box-shadow:0 0 0 2px var(--vc); }

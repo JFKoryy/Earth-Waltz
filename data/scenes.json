@@ -4,10 +4,16 @@
     "date": "2025-10-29",
     "version": "X05009",
     "product": "NISAR L2 GSLC",
-    "polarizations": ["HH", "HV"],
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
     "files": {
       "hh": "salida/imagenes/hh_20251029.png",
-      "hv": "salida/imagenes/hv_20251029.png"
+      "hv": "salida/imagenes/hv_20251029.png",
+      "hv_color": "assets/scenes/color/hv_20251029.jpg",
+      "hh_color": "assets/scenes/color/hh_20251029.jpg",
+      "rgb": "assets/scenes/color/rgb_20251029.jpg"
     }
   },
   {
@@ -15,10 +21,16 @@
     "date": "2025-11-22",
     "version": "X05009",
     "product": "NISAR L2 GSLC",
-    "polarizations": ["HH", "HV"],
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
     "files": {
       "hh": "salida/imagenes/hh_20251122.png",
-      "hv": "salida/imagenes/hv_20251122.png"
+      "hv": "salida/imagenes/hv_20251122.png",
+      "hv_color": "assets/scenes/color/hv_20251122.jpg",
+      "hh_color": "assets/scenes/color/hh_20251122.jpg",
+      "rgb": "assets/scenes/color/rgb_20251122.jpg"
     }
   },
   {
@@ -26,10 +38,16 @@
     "date": "2025-12-04",
     "version": "X05009",
     "product": "NISAR L2 GSLC",
-    "polarizations": ["HH", "HV"],
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
     "files": {
       "hh": "salida/imagenes/hh_20251204.png",
-      "hv": "salida/imagenes/hv_20251204.png"
+      "hv": "salida/imagenes/hv_20251204.png",
+      "hv_color": "assets/scenes/color/hv_20251204.jpg",
+      "hh_color": "assets/scenes/color/hh_20251204.jpg",
+      "rgb": "assets/scenes/color/rgb_20251204.jpg"
     }
   },
   {
@@ -37,10 +55,16 @@
     "date": "2025-12-16",
     "version": "X05009",
     "product": "NISAR L2 GSLC",
-    "polarizations": ["HH", "HV"],
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
     "files": {
       "hh": "salida/imagenes/hh_20251216.png",
-      "hv": "salida/imagenes/hv_20251216.png"
+      "hv": "salida/imagenes/hv_20251216.png",
+      "hv_color": "assets/scenes/color/hv_20251216.jpg",
+      "hh_color": "assets/scenes/color/hh_20251216.jpg",
+      "rgb": "assets/scenes/color/rgb_20251216.jpg"
     }
   },
   {
@@ -48,10 +72,16 @@
     "date": "2025-12-28",
     "version": "X05009",
     "product": "NISAR L2 GSLC",
-    "polarizations": ["HH", "HV"],
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
     "files": {
       "hh": "salida/imagenes/hh_20251228.png",
-      "hv": "salida/imagenes/hv_20251228.png"
+      "hv": "salida/imagenes/hv_20251228.png",
+      "hv_color": "assets/scenes/color/hv_20251228.jpg",
+      "hh_color": "assets/scenes/color/hh_20251228.jpg",
+      "rgb": "assets/scenes/color/rgb_20251228.jpg"
     }
   },
   {
@@ -59,10 +89,16 @@
     "date": "2026-01-09",
     "version": "X05009",
     "product": "NISAR L2 GSLC",
-    "polarizations": ["HH", "HV"],
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
     "files": {
       "hh": "salida/imagenes/hh_20260109.png",
-      "hv": "salida/imagenes/hv_20260109.png"
+      "hv": "salida/imagenes/hv_20260109.png",
+      "hv_color": "assets/scenes/color/hv_20260109.jpg",
+      "hh_color": "assets/scenes/color/hh_20260109.jpg",
+      "rgb": "assets/scenes/color/rgb_20260109.jpg"
     }
   },
   {
@@ -70,10 +106,16 @@
     "date": "2026-06-26",
     "version": "P05023",
     "product": "NISAR L2 GSLC",
-    "polarizations": ["HH", "HV"],
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
     "files": {
       "hh": "salida/imagenes/hh_20260626.png",
-      "hv": "salida/imagenes/hv_20260626.png"
+      "hv": "salida/imagenes/hv_20260626.png",
+      "hv_color": "assets/scenes/color/hv_20260626.jpg",
+      "hh_color": "assets/scenes/color/hh_20260626.jpg",
+      "rgb": "assets/scenes/color/rgb_20260626.jpg"
     }
   },
   {
@@ -81,10 +123,16 @@
     "date": "2026-07-08",
     "version": "P05023",
     "product": "NISAR L2 GSLC",
-    "polarizations": ["HH", "HV"],
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
     "files": {
       "hh": "salida/imagenes/hh_20260708.png",
-      "hv": "salida/imagenes/hv_20260708.png"
+      "hv": "salida/imagenes/hv_20260708.png",
+      "hv_color": "assets/scenes/color/hv_20260708.jpg",
+      "hh_color": "assets/scenes/color/hh_20260708.jpg",
+      "rgb": "assets/scenes/color/rgb_20260708.jpg"
     }
   },
   {
@@ -92,10 +140,16 @@
     "date": "2026-07-20",
     "version": "P05023",
     "product": "NISAR L2 GSLC",
-    "polarizations": ["HH", "HV"],
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
     "files": {
       "hh": "salida/imagenes/hh_20260720.png",
-      "hv": "salida/imagenes/hv_20260720.png"
+      "hv": "salida/imagenes/hv_20260720.png",
+      "hv_color": "assets/scenes/color/hv_20260720.jpg",
+      "hh_color": "assets/scenes/color/hh_20260720.jpg",
+      "rgb": "assets/scenes/color/rgb_20260720.jpg"
     }
   },
   {
@@ -103,10 +157,16 @@
     "date": "2026-08-13",
     "version": "P05023",
     "product": "NISAR L2 GSLC",
-    "polarizations": ["HH", "HV"],
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
     "files": {
       "hh": "salida/imagenes/hh_20260813.png",
-      "hv": "salida/imagenes/hv_20260813.png"
+      "hv": "salida/imagenes/hv_20260813.png",
+      "hv_color": "assets/scenes/color/hv_20260813.jpg",
+      "hh_color": "assets/scenes/color/hh_20260813.jpg",
+      "rgb": "assets/scenes/color/rgb_20260813.jpg"
     }
   },
   {
@@ -114,10 +174,16 @@
     "date": "2026-08-25",
     "version": "P05023",
     "product": "NISAR L2 GSLC",
-    "polarizations": ["HH", "HV"],
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
     "files": {
       "hh": "salida/imagenes/hh_20260825.png",
-      "hv": "salida/imagenes/hv_20260825.png"
+      "hv": "salida/imagenes/hv_20260825.png",
+      "hv_color": "assets/scenes/color/hv_20260825.jpg",
+      "hh_color": "assets/scenes/color/hh_20260825.jpg",
+      "rgb": "assets/scenes/color/rgb_20260825.jpg"
     }
   },
   {
@@ -125,10 +191,16 @@
     "date": "2026-09-06",
     "version": "P05023",
     "product": "NISAR L2 GSLC",
-    "polarizations": ["HH", "HV"],
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
     "files": {
       "hh": "salida/imagenes/hh_20260906.png",
-      "hv": "salida/imagenes/hv_20260906.png"
+      "hv": "salida/imagenes/hv_20260906.png",
+      "hv_color": "assets/scenes/color/hv_20260906.jpg",
+      "hh_color": "assets/scenes/color/hh_20260906.jpg",
+      "rgb": "assets/scenes/color/rgb_20260906.jpg"
     }
   },
   {
@@ -136,10 +208,16 @@
     "date": "2026-09-18",
     "version": "P05023",
     "product": "NISAR L2 GSLC",
-    "polarizations": ["HH", "HV"],
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
     "files": {
       "hh": "salida/imagenes/hh_20260918.png",
-      "hv": "salida/imagenes/hv_20260918.png"
+      "hv": "salida/imagenes/hv_20260918.png",
+      "hv_color": "assets/scenes/color/hv_20260918.jpg",
+      "hh_color": "assets/scenes/color/hh_20260918.jpg",
+      "rgb": "assets/scenes/color/rgb_20260918.jpg"
     }
   },
   {
@@ -147,10 +225,16 @@
     "date": "2026-09-30",
     "version": "P05023",
     "product": "NISAR L2 GSLC",
-    "polarizations": ["HH", "HV"],
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
     "files": {
       "hh": "salida/imagenes/hh_20260930.png",
-      "hv": "salida/imagenes/hv_20260930.png"
+      "hv": "salida/imagenes/hv_20260930.png",
+      "hv_color": "assets/scenes/color/hv_20260930.jpg",
+      "hh_color": "assets/scenes/color/hh_20260930.jpg",
+      "rgb": "assets/scenes/color/rgb_20260930.jpg"
     }
   },
   {
@@ -158,10 +242,16 @@
     "date": "2026-10-12",
     "version": "P05023",
     "product": "NISAR L2 GSLC",
-    "polarizations": ["HH", "HV"],
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
     "files": {
       "hh": "salida/imagenes/hh_20261012.png",
-      "hv": "salida/imagenes/hv_20261012.png"
+      "hv": "salida/imagenes/hv_20261012.png",
+      "hv_color": "assets/scenes/color/hv_20261012.jpg",
+      "hh_color": "assets/scenes/color/hh_20261012.jpg",
+      "rgb": "assets/scenes/color/rgb_20261012.jpg"
     }
   },
   {
@@ -169,10 +259,16 @@
     "date": "2026-10-24",
     "version": "P05036",
     "product": "NISAR L2 GSLC",
-    "polarizations": ["HH", "HV"],
+    "polarizations": [
+      "HH",
+      "HV"
+    ],
     "files": {
       "hh": "salida/imagenes/hh_20261024.png",
-      "hv": "salida/imagenes/hv_20261024.png"
+      "hv": "salida/imagenes/hv_20261024.png",
+      "hv_color": "assets/scenes/color/hv_20261024.jpg",
+      "hh_color": "assets/scenes/color/hh_20261024.jpg",
+      "rgb": "assets/scenes/color/rgb_20261024.jpg"
     }
   }
 ]

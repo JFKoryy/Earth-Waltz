@@ -11,7 +11,7 @@
 <meta property="og:image" content="assets/photos/banner-mangroves.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#071F28">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%230B2E3A' stroke='%232EE6F6' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%2322C58B'/%3E%3C/svg%3E">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800;900&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -19,14 +19,15 @@
 <link rel="stylesheet" href="assets/css/theme.css">
 </head>
 <body>
+<canvas class="stars" id="stars" aria-hidden="true"></canvas>
 <a class="skip" href="#main">Skip to main content</a>
 <nav class="nav" aria-label="Main">
   <div class="container">
     <a href="index.html" class="logo" aria-label="Earth Waltz, home">
-      <svg width="34" height="34" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="11" fill="none" stroke="currentColor" stroke-width="1.8"/><ellipse cx="20" cy="20" rx="18" ry="6" fill="none" stroke="#2EE6F6" stroke-width="1.6" transform="rotate(-20 20 20)"/><circle cx="20" cy="20" r="3" fill="#22C58B"/></svg>
+      <img src="assets/img/logo.png" alt="" width="38" height="38" class="logo-img">
       <span class="logo-txt"><b>EARTH</b><b>WALTZ</b></span>
     </a>
-    <div class="nav-right" id="navRight"><ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="dances.html">Dances</a></li><li><a href="mangroves.html" class="active" aria-current="page">Mangroves</a></li><li><a href="floods.html">Floods</a></li><li><a href="wildfires.html">Wildfires</a></li><li><a href="glaciers.html">Glaciers</a></li><li><a href="subsidence.html">Subsidence</a></li><li><a href="resources.html">Resources</a></li><li><a href="about.html">About</a></li></ul></div>
+    <div class="nav-right" id="navRight"><ul class="nav-links"><li><a href="index.html">Home</a></li><li class="has-dd"><a href="dances.html" class="dd-toggle active" aria-haspopup="true" aria-expanded="false">Dances <span class="chev" aria-hidden="true">▾</span></a><div class="dd-menu"><ul><li><a href="mangroves.html" class="dd-item active">Mangroves</a></li><li><a href="floods.html" class="dd-item">Floods</a></li><li><a href="wildfires.html" class="dd-item">Wildfires</a></li><li><a href="glaciers.html" class="dd-item">Glaciers</a></li><li><a href="subsidence.html" class="dd-item">Subsidence</a></li></ul></div></li><li><a href="resources.html">Resources</a></li><li><a href="about.html">About</a></li></ul></div>
     <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="navRight">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
     </button>
@@ -60,43 +61,41 @@
 </nav>
 <div class="crumbs-bar" id="main-content"><div class="container crumbs"><a href="dances.html">Dances</a> › First Dance: Mangroves › <span id="crumbCur">Meet the ecosystem</span> · <span class="mono" id="progress">Chapter 1 of 4</span></div></div>
 <div class="dance-body"><!-- CHAPTER 1 -->
-<section id="meet" class="chapter" data-title="Meet the ecosystem" data-n="1">
+<section id="meet" class="chapter meet-full" data-title="Meet the ecosystem" data-n="1">
   <div class="container">
     <div class="split">
       <div class="reveal">
         <span class="chapter-label">Chapter 1 of 4</span>
         <h2>Meet the ecosystem</h2>
         <p class="lead">Before we listen to the radar, let’s meet the place it is watching: the mangroves of the Ciénaga Grande de Santa Marta, on Colombia’s Caribbean coast.</p>
-        <div class="qa" style="margin-top:2rem">
-          <details open><summary>What is this place?</summary><p>The Ciénaga Grande de Santa Marta is a large coastal lagoon system on the Caribbean coast of Colombia, where fresh water from rivers meets salt water from the sea. <button class="gloss-term" data-term="Mangrove">Mangrove</button> forests grow along its shores and channels.</p><span class="verify">[Verify: size of the lagoon, protected status, and location details with a citable source.]</span></details>
-          <details><summary>Why do mangroves matter?</summary><p>Mangroves are trees that live where land and sea meet. Their roots hold the shore, shelter young fish and birds, and store carbon in their wood and soil. NASA describes mangroves as a critical coastal ecosystem under severe threat from climate change, and one that responds quickly to change, which makes it a useful indicator.</p><span class="verify">[Verify: add one or two local facts, e.g. fisheries, species, nearby communities.]</span></details>
-          <details><summary>Who depends on them?</summary><p>Fishing communities, coastal families and wildlife all depend on healthy mangroves and healthy water flow.</p><span class="verify">[Verify: name the communities and number of people only if a source confirms it.]</span></details>
-          <details><summary>What can go wrong?</summary><p>Mangroves need the right mix of fresh and salty water. When water flow changes, or when trees are cut or flooded for too long, patches of forest can thin out or die back.</p><span class="verify">[Verify: add the documented history of the Ciénaga Grande with a source.]</span></details>
-          <details><summary>Why use radar here?</summary><p>This coast is often cloudy and humid, and the mangroves sit in a landscape of water, mud and trees that changes with tides and seasons. Radar can look through clouds and, with the right wavelength, tell water, dense mangrove and sparse mangrove apart.</p></details>
+        <div class="eco">
+          <figure class="map-embed">
+            <iframe src="https://maps.google.com/maps?q=10.8688646,-74.3822058&amp;z=10&amp;output=embed" title="Google Maps: Ciénaga Grande de Santa Marta" loading="lazy" allowfullscreen></iframe>
+            <a class="btn btn-outline btn-sm" href="https://maps.app.goo.gl/XveXaboNJy8V5f5f9" target="_blank" rel="noopener">Open in Google Maps ↗</a>
+          </figure>
+          <p>The Ciénaga Grande de Santa Marta is a brackish coastal lagoon in Magdalena, Colombia. Its balance depends on fresh water from the Magdalena River and Sierra Nevada rivers meeting salt water from the Caribbean Sea. It is the largest and most productive coastal lagoon in the Colombian Caribbean.</p>
+          <div class="eco-stats">
+            <div><b>26,810 ha</b><span>Flora &amp; Fauna Sanctuary</span></div>
+            <div><b>1998</b><span>Colombia’s first Ramsar wetland</span></div>
+            <div><b>2000</b><span>UNESCO Biosphere Reserve</span></div>
+            <div><b>53+</b><span>fish species</span></div>
+          </div>
+          <div class="eco-grid">
+            <article><h3>Mangroves</h3><p>Red, black, white and button mangroves. Their roots shelter fish, crabs, molluscs and nesting birds.</p></article>
+            <article><h3>Wildlife</h3><p>Manatees, otters, howler monkeys, caimans and huge flocks of migratory ducks from November to April. Even the Caribbean flamingo is back.</p></article>
+            <article><h3>Climate</h3><p>27–30 °C all year. Rains from May to November; dry season from December to April, when evaporation raises salinity.</p></article>
+            <article><h3>What can go wrong?</h3><p>When fresh water stops flowing, salinity rises. Mangroves die back and fish die, mostly in February and March.</p></article>
+          </div>
+          <p class="eco-note">Created by INDERENA in 1977 (23,000 ha) and expanded in 1998 to 26,810 ha. Only conservation, research, education and control activities are allowed. Sources: <a href="https://cienagagrande.minambiente.gov.co/" target="_blank" rel="noopener">Minambiente</a>, <a href="https://www.parquesnacionales.gov.co/nuestros-parques/sff-cienaga-grande-de-santa-marta/" target="_blank" rel="noopener">Parques Nacionales</a>, <a href="https://www.colparques.net/CIENAGA" target="_blank" rel="noopener">Colparques</a>.</p>
         </div>
       </div>
-      <div class="reveal" style="display:grid;gap:1.4rem">
-        <figure class="map-svg">
-          <svg viewBox="0 0 400 300" role="img" aria-label="Illustrated map of Colombia’s Caribbean coast with the lagoon system highlighted and a box showing the area studied.">
-            <path d="M0 40 Q80 30 120 60 T220 70 Q260 60 300 90 T400 80 V0 H0Z" fill="#071F28"/>
-            <text x="20" y="28" fill="#9FB8C0" font-family="IBM Plex Mono" font-size="10">CARIBBEAN SEA</text>
-            <path d="M0 40 Q80 30 120 60 T220 70 Q260 60 300 90 T400 80 V300 H0Z" fill="#14452F"/>
-            <path d="M150 90 Q170 80 200 95 Q230 115 215 150 Q195 175 165 160 Q140 140 150 90Z" fill="#0d4d63" stroke="#2EE6F6" stroke-width="1.2"/>
-            <path d="M140 100 Q130 140 160 175 M225 110 Q245 140 220 170" stroke="#22C58B" stroke-width="5" fill="none" stroke-linecap="round" opacity=".8"/>
-            <rect x="125" y="72" width="130" height="115" fill="none" stroke="#F5B544" stroke-dasharray="5 4" stroke-width="1.5"/>
-            <text x="128" y="200" fill="#F5B544" font-family="IBM Plex Mono" font-size="9">STUDY AREA (NISAR)</text>
-            <text x="165" y="128" fill="#EAF6F8" font-family="Fraunces" font-size="11">Ciénaga</text><text x="168" y="141" fill="#EAF6F8" font-family="Fraunces" font-size="11">Grande</text>
-            <circle cx="300" cy="105" r="3" fill="#EAF6F8"/><text x="307" y="109" fill="#9FB8C0" font-family="IBM Plex Mono" font-size="9">Santa Marta</text>
-            <text x="20" y="285" fill="#9FB8C0" font-family="IBM Plex Mono" font-size="9">COLOMBIA · illustrative, not to scale</text>
-          </svg>
-          <figcaption>The Ciénaga Grande de Santa Marta and the area covered by our NISAR scenes.</figcaption>
-        </figure>
-        <figure>
-          <img src="assets/photos/misty-valley-tree.jpg" alt="A large tree on a mossy rock above a misty forested valley." loading="lazy" style="aspect-ratio:16/10;object-fit:cover;width:100%">
-          <figcaption>AI-generated illustrative image. Replace with licensed mangrove photos: [Description]. Photo: [author], [license].</figcaption>
-        </figure>
-      </div>
     </div>
+  <div class="gallery reveal" aria-label="Photo gallery of the Ciénaga Grande">
+    <div class="g-row"><div class="g-track"><button class="g-item" data-src="assets/photos/gallery/canoe.jpg" data-cap="Fishers in a canoe crossing the lagoon"><img src="assets/photos/gallery/canoe.jpg" alt="Fishers in a canoe crossing the lagoon" loading="lazy"><span class="g-cap">Fishers in a canoe crossing the lagoon</span></button><button class="g-item" data-src="assets/photos/gallery/egret-hyacinth.jpg" data-cap="A great egret among water hyacinths"><img src="assets/photos/gallery/egret-hyacinth.jpg" alt="A great egret among water hyacinths" loading="lazy"><span class="g-cap">A great egret among water hyacinths</span></button><button class="g-item" data-src="assets/photos/gallery/birds-channel.jpg" data-cap="Birds flying over a mangrove channel"><img src="assets/photos/gallery/birds-channel.jpg" alt="Birds flying over a mangrove channel" loading="lazy"><span class="g-cap">Birds flying over a mangrove channel</span></button><button class="g-item" data-src="assets/photos/gallery/river-city.jpg" data-cap="Where the river meets the city"><img src="assets/photos/gallery/river-city.jpg" alt="Where the river meets the city" loading="lazy"><span class="g-cap">Where the river meets the city</span></button><button class="g-item" data-src="assets/photos/gallery/egret-flight.jpg" data-cap="An egret in flight over the water"><img src="assets/photos/gallery/egret-flight.jpg" alt="An egret in flight over the water" loading="lazy"><span class="g-cap">An egret in flight over the water</span></button><button class="g-item" data-src="assets/photos/gallery/mangrove-water.jpg" data-cap="Mangrove forest along calm water"><img src="assets/photos/gallery/mangrove-water.jpg" alt="Mangrove forest along calm water" loading="lazy"><span class="g-cap">Mangrove forest along calm water</span></button><button class="g-item" data-src="assets/photos/gallery/canoe.jpg" data-cap="Fishers in a canoe crossing the lagoon"><img src="assets/photos/gallery/canoe.jpg" alt="Fishers in a canoe crossing the lagoon" loading="lazy"><span class="g-cap">Fishers in a canoe crossing the lagoon</span></button><button class="g-item" data-src="assets/photos/gallery/egret-hyacinth.jpg" data-cap="A great egret among water hyacinths"><img src="assets/photos/gallery/egret-hyacinth.jpg" alt="A great egret among water hyacinths" loading="lazy"><span class="g-cap">A great egret among water hyacinths</span></button><button class="g-item" data-src="assets/photos/gallery/birds-channel.jpg" data-cap="Birds flying over a mangrove channel"><img src="assets/photos/gallery/birds-channel.jpg" alt="Birds flying over a mangrove channel" loading="lazy"><span class="g-cap">Birds flying over a mangrove channel</span></button><button class="g-item" data-src="assets/photos/gallery/river-city.jpg" data-cap="Where the river meets the city"><img src="assets/photos/gallery/river-city.jpg" alt="Where the river meets the city" loading="lazy"><span class="g-cap">Where the river meets the city</span></button><button class="g-item" data-src="assets/photos/gallery/egret-flight.jpg" data-cap="An egret in flight over the water"><img src="assets/photos/gallery/egret-flight.jpg" alt="An egret in flight over the water" loading="lazy"><span class="g-cap">An egret in flight over the water</span></button><button class="g-item" data-src="assets/photos/gallery/mangrove-water.jpg" data-cap="Mangrove forest along calm water"><img src="assets/photos/gallery/mangrove-water.jpg" alt="Mangrove forest along calm water" loading="lazy"><span class="g-cap">Mangrove forest along calm water</span></button></div></div>
+    <div class="g-row rev"><div class="g-track"><button class="g-item" data-src="assets/photos/gallery/river-city.jpg" data-cap="Where the river meets the city"><img src="assets/photos/gallery/river-city.jpg" alt="Where the river meets the city" loading="lazy"><span class="g-cap">Where the river meets the city</span></button><button class="g-item" data-src="assets/photos/gallery/egret-flight.jpg" data-cap="An egret in flight over the water"><img src="assets/photos/gallery/egret-flight.jpg" alt="An egret in flight over the water" loading="lazy"><span class="g-cap">An egret in flight over the water</span></button><button class="g-item" data-src="assets/photos/gallery/mangrove-water.jpg" data-cap="Mangrove forest along calm water"><img src="assets/photos/gallery/mangrove-water.jpg" alt="Mangrove forest along calm water" loading="lazy"><span class="g-cap">Mangrove forest along calm water</span></button><button class="g-item" data-src="assets/photos/gallery/canoe.jpg" data-cap="Fishers in a canoe crossing the lagoon"><img src="assets/photos/gallery/canoe.jpg" alt="Fishers in a canoe crossing the lagoon" loading="lazy"><span class="g-cap">Fishers in a canoe crossing the lagoon</span></button><button class="g-item" data-src="assets/photos/gallery/egret-hyacinth.jpg" data-cap="A great egret among water hyacinths"><img src="assets/photos/gallery/egret-hyacinth.jpg" alt="A great egret among water hyacinths" loading="lazy"><span class="g-cap">A great egret among water hyacinths</span></button><button class="g-item" data-src="assets/photos/gallery/birds-channel.jpg" data-cap="Birds flying over a mangrove channel"><img src="assets/photos/gallery/birds-channel.jpg" alt="Birds flying over a mangrove channel" loading="lazy"><span class="g-cap">Birds flying over a mangrove channel</span></button><button class="g-item" data-src="assets/photos/gallery/river-city.jpg" data-cap="Where the river meets the city"><img src="assets/photos/gallery/river-city.jpg" alt="Where the river meets the city" loading="lazy"><span class="g-cap">Where the river meets the city</span></button><button class="g-item" data-src="assets/photos/gallery/egret-flight.jpg" data-cap="An egret in flight over the water"><img src="assets/photos/gallery/egret-flight.jpg" alt="An egret in flight over the water" loading="lazy"><span class="g-cap">An egret in flight over the water</span></button><button class="g-item" data-src="assets/photos/gallery/mangrove-water.jpg" data-cap="Mangrove forest along calm water"><img src="assets/photos/gallery/mangrove-water.jpg" alt="Mangrove forest along calm water" loading="lazy"><span class="g-cap">Mangrove forest along calm water</span></button><button class="g-item" data-src="assets/photos/gallery/canoe.jpg" data-cap="Fishers in a canoe crossing the lagoon"><img src="assets/photos/gallery/canoe.jpg" alt="Fishers in a canoe crossing the lagoon" loading="lazy"><span class="g-cap">Fishers in a canoe crossing the lagoon</span></button><button class="g-item" data-src="assets/photos/gallery/egret-hyacinth.jpg" data-cap="A great egret among water hyacinths"><img src="assets/photos/gallery/egret-hyacinth.jpg" alt="A great egret among water hyacinths" loading="lazy"><span class="g-cap">A great egret among water hyacinths</span></button><button class="g-item" data-src="assets/photos/gallery/birds-channel.jpg" data-cap="Birds flying over a mangrove channel"><img src="assets/photos/gallery/birds-channel.jpg" alt="Birds flying over a mangrove channel" loading="lazy"><span class="g-cap">Birds flying over a mangrove channel</span></button></div></div>
+    <p class="hint g-hint">Hover to pause · click a photo to open it. Photos of the Ciénaga Grande de Santa Marta.</p>
+  </div>
+  <div class="container">
     <div class="chapter-nav"><a href="dances.html" class="btn btn-outline btn-sm">← Back to Dances</a><a href="#signals" class="btn btn-primary">Next: Listen to the signals →</a></div>
   </div>
 </section>
@@ -183,10 +182,10 @@
           <button type="button" data-pol="hh" aria-pressed="true">HH</button><button type="button" data-pol="hv" aria-pressed="false">HV</button><button type="button" data-pol="comp" aria-pressed="false">Composite</button>
         </div>
         <figure class="pol-hh" id="polFig">
-          <img class="pol-img" src="assets/photos/rainforest-sunrise.jpg" alt="Scene viewer in HH polarization (illustrative placeholder)." loading="lazy" style="aspect-ratio:16/10;object-fit:cover;width:100%">
+          <div class="pol-stage"><img class="pol-img" id="polImg" src="assets/scenes/color/hh_20251029.jpg" alt="NISAR scene of the Ciénaga Grande in HH polarization, October 29, 2025." loading="lazy"><div class="pol-legend" id="polLegend"></div></div>
           <figcaption id="polHelp">HH: good for water and flooded areas.</figcaption>
         </figure>
-        <p class="hint" style="margin-top:.6rem">Illustrative preview. Replace with real NISAR HH / HV / composite scenes in <span class="mono">assets/scenes/</span>.</p>
+        <p class="hint" style="margin-top:.6rem">Real NISAR scene of the Ciénaga Grande, October 29, 2025. Radar has no color: our code paints each echo strength with a color scale so you can read it.</p>
       </div>
     </div>
 
@@ -225,15 +224,15 @@
       <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem"><b class="mono" style="font-size:.85rem">Timeline: 16 radar scenes</b><span class="hint">Choose a Date A and a Date B. Dates from a similar season compare best.</span></div>
       <div class="timeline" id="timeline" role="group" aria-label="Timeline of 16 radar scenes. Date A and Date B are selected."></div>
       <div class="tl-line"></div>
-      <p class="hint" id="seasonTip">Tip: <span class="ph">[Date A]</span> and <span class="ph">[Date B]</span> are from a similar time of year, so the comparison is fairer.</p>
+      <p class="hint" id="seasonTip">Tip: <span class="dA"></span> and <span class="dB"></span>. Dates from a similar time of year give a fairer comparison.</p>
     </div>
 
     </div>
   <div class="bleed reveal">
     <div class="compare compare-full" id="compare" style="--pos:50%">
-          <img src="assets/photos/misty-valley-tree.jpg" alt="Date B scene (placeholder)">
-          <img class="top" src="assets/photos/rainforest-sunrise.jpg" alt="Date A scene (placeholder)">
-          <div class="change-overlay" aria-hidden="true"></div>
+          <img src="assets/scenes/color/hv_20260109.jpg" alt="Date B scene">
+          <img class="top" src="assets/scenes/color/hv_20251029.jpg" alt="Date A scene">
+          <img class="change-overlay" id="changeImg" alt="" aria-hidden="true">
           <span class="lbl" style="left:.8rem">A · <span class="dA">[Date A]</span></span>
           <span class="lbl" style="right:.8rem">B · <span class="dB">[Date B]</span></span>
           <div class="bar"><div class="knob" aria-hidden="true">⇆</div></div>
@@ -241,7 +240,7 @@
         </div>
         <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem;margin-top:1rem;align-items:center">
           <span class="hint">Drag to compare Date A and Date B</span>
-          <label class="switch"><input type="checkbox" id="changeToggle"> Show change map</label>
+          <div class="cmp-tools"><label class="switch"><input type="checkbox" id="changeToggle"> Show change map</label><label class="switch"><input type="checkbox" id="fitToggle"> Show whole scene</label></div>
         </div>
   </div>
   <div class="container">
@@ -250,22 +249,23 @@
         
         <div class="legend" aria-label="What the colors mean">
           <b style="width:100%;color:var(--ice);font-size:.85rem">What the colors mean</b>
-          <span><i style="background:#0d4d63"></i>Water</span><span><i style="background:#22C58B"></i>Dense mangrove</span><span><i style="background:#8fd9b8"></i>Sparse mangrove</span><span><i style="background:#6b7276"></i>Other</span>
-          <span style="margin-left:auto"><i style="background:#F5B544"></i>Decrease</span><span><i style="background:#9FB8C0"></i>Stable</span><span><i style="background:#4287F5"></i>Increase</span>
+          <span class="ramp-wrap"><span class="ramp"></span><span class="ramp-lbl"><em>Weak echo · water</em><em>Strong echo · vegetation</em></span></span>
+          <span><i style="background:#0b2a6b"></i>Open water</span><span><i style="background:#14a7b8"></i>Low or sparse vegetation</span><span><i style="background:#7fd65a"></i>Dense vegetation, mangrove</span>
+          <span class="chg"><i style="background:#ff4fd8"></i>Became water</span><span class="chg"><i style="background:#F5B544"></i>Stopped being water</span>
         </div>
-        <p class="hint" style="margin-top:.6rem">Classes also have patterns and outlines, so you don’t need to rely on color.</p>
-        <p class="hint" style="margin-top:.4rem">Radar scene of the Ciénaga Grande, <span class="ph">[Date A]</span> vs <span class="ph">[Date B]</span>. Source: NISAR (NASA-ISRO), processed by HTTP Polaris. <em>Placeholder imagery until scenes are added.</em></p>
+        <p class="hint" style="margin-top:.6rem">Radar images are not photos: our code colors the HV echo strength. Turn on “Show change map” to see pink and amber patches.</p>
+        <p class="hint" style="margin-top:.4rem">Radar scene of the Ciénaga Grande, <span class="dA">[Date A]</span> vs <span class="dB">[Date B]</span>. Source: NISAR (NASA-ISRO), processed by HTTP Polaris.</p>
       </div>
       <div class="stats">
-        <div class="stat dec"><div class="v"><span class="ph" data-r="decrease_ha">[X]</span> ha</div>of mangrove decreased</div>
-        <div class="stat sta"><div class="v"><span class="ph" data-r="stable_ha">[X]</span> ha</div>stayed stable</div>
-        <div class="stat inc"><div class="v"><span class="ph" data-r="increase_ha">[X]</span> ha</div>of mangrove increased</div>
-        <p class="hint">Areas are in hectares (ha), calculated by our code from the two scenes. 1 hectare is about the size of a soccer field.</p>
-        <div class="card" style="padding:1.1rem">
+        <div class="stat inc"><div class="v"><span data-r="gained_ha">–</span> ha</div>became open water</div>
+        <div class="stat dec"><div class="v"><span data-r="lost_ha">–</span> ha</div>stopped being open water</div>
+        <div class="stat sta"><div class="v"><span data-r="net_ha">–</span> ha</div>net balance of open water · <span data-r="days">–</span> days apart</div>
+        <p class="hint">Areas are in hectares (ha), calculated by our code from the two scenes. 1 hectare is about the size of a soccer field. Patches smaller than 1 ha are ignored.</p>
+        <div class="card trust" style="padding:1.1rem">
           <b>How much can you trust this?</b>
-          <div class="meter" aria-hidden="true"><span class="on"></span><span class="on"></span><span></span></div>
-          <p style="font-size:.88rem">Medium: some differences may affect the result. Reason: <span class="ph">[reason]</span>.</p>
-          <p class="hint" style="margin-top:.5rem">Limits: short time series, water and tide effects, approximate classification.</p>
+          <div class="meter" id="trustMeter" aria-hidden="true"><span></span><span></span><span></span></div>
+          <p style="font-size:.88rem" id="trustText">–</p>
+          <p class="hint" style="margin-top:.5rem">Limits: we measure open water only, not water under the trees. Tides and rain change the signal. Different processing versions are never compared.</p>
         </div>
         <button class="btn btn-primary" id="explainBtn">✦ Explain it to me</button>
       </div>
@@ -273,22 +273,35 @@
 
     <div class="ai-box" id="aiBox" aria-live="polite"></div>
 
-    <div class="grid g2" style="margin-top:3rem">
-      <div class="chart reveal">
-        <b>Mean HV backscatter over 16 dates (dB)</b>
-        <svg viewBox="0 0 400 200" role="img" aria-label="Line chart of mean HV backscatter over 16 dates, with Date A and Date B highlighted." id="chart"></svg>
-        <p class="hint">Each point is one NISAR scene. The highlighted points are Date A and Date B. <em>Values appear once <span class="mono">data/results.json</span> is filled.</em></p>
+    <div class="chart chart-x reveal" style="margin-top:3rem">
+      <div class="chart-head">
+        <div><b class="chart-title" id="chartTitle">Vegetation signal over time</b><p class="hint" id="chartSub">Median HV backscatter of stable vegetation, in decibels (dB). Higher = stronger echo.</p></div>
+        <div class="seg" role="group" aria-label="Metric" id="metricSeg"><button type="button" data-m="hv" aria-pressed="true">Vegetation (HV dB)</button><button type="button" data-m="water" aria-pressed="false">Open water (ha)</button></div>
       </div>
-      <div class="reveal">
-        <h3>What could explain this?</h3>
-        <p class="hint" style="margin-bottom:1rem">These are possible explanations, not conclusions. For each one, we list what evidence would support it and what would rule it out.</p>
-        <div class="grid" style="gap:.8rem">
-          <div class="hyp"><b>1 · Tides and water level</b><dl><dt>Could explain</dt><dd>Darker or brighter areas near the water’s edge.</dd><dt>Supports it</dt><dd>The dates have different tide or water conditions; the change is mostly along channels.</dd><dt>Rules it out</dt><dd>The change appears in dense forest far from water.</dd></dl></div>
-          <div class="hyp"><b>2 · Rain and soil moisture</b><dl><dt>Could explain</dt><dd>Changes in backscatter in areas that look unchanged on the ground.</dd><dt>Supports it</dt><dd>The two dates are from different seasons.</dd><dt>Rules it out</dt><dd>The dates are from the same season and the change is large and local.</dd></dl></div>
-          <div class="hyp"><b>3 · Real change in mangrove cover</b><dl><dt>Could explain</dt><dd>A clear, persistent drop (or rise) in HV in patches of forest.</dd><dt>Supports it</dt><dd>The change stays in later dates and matches field or optical evidence.</dd><dt>Rules it out</dt><dd>The signal goes back to normal in the next scene.</dd></dl></div>
-        </div>
-        <p class="hint" style="margin-top:1rem">Only field data or optical images can confirm what happened on the ground.</p>
+      <div class="chart-box"><svg viewBox="0 0 820 340" role="img" aria-label="Interactive chart of 16 NISAR scenes over time" id="chartX"></svg><div class="chart-tip" id="chartTip" role="status"></div></div>
+      <div class="chart-legend"><span><i style="background:#2EE6F6"></i>Version X05009</span><span><i style="background:#22C58B"></i>Version P05023</span><span><i style="background:#9FB8C0"></i>Version P05036</span><span><i class="ring a"></i>Date A</span><span><i class="ring b"></i>Date B</span></div>
+      <p class="hint">Each point is one NISAR scene. Hover a point to read it, click a point to set it as Date A or B. Lines are not drawn across different processing versions, because they can’t be compared.</p>
+    </div>
+    <div class="hyp-wrap reveal" style="margin-top:3rem">
+      <h3>What could explain a change?</h3>
+      <p class="hint" style="margin-bottom:1rem">The radar tells us <em>that</em> water changed, not <em>why</em>. These are possibilities, not conclusions. Open each one.</p>
+      <div class="hyp-grid">
+        <details class="hyp"><summary><span class="hn">01</span>Tides and water level</summary><dl><dt>Supports it</dt><dd>The change is mostly along channels and shores, and the dates had different water levels.</dd><dt>Rules it out</dt><dd>The change appears in dense forest far from water.</dd></dl></details>
+        <details class="hyp"><summary><span class="hn">02</span>Rain and soil moisture</summary><dl><dt>Supports it</dt><dd>The two dates are from different seasons (dry vs rainy).</dd><dt>Rules it out</dt><dd>Same season, and the change is large and local.</dd></dl></details>
+        <details class="hyp"><summary><span class="hn">03</span>Real change in mangrove cover</summary><dl><dt>Supports it</dt><dd>The change stays in later dates and matches field or optical images.</dd><dt>Rules it out</dt><dd>The signal goes back to normal in the next scene.</dd></dl></details>
       </div>
+    </div>
+    <div class="export-box reveal">
+      <div><b class="chart-title">Export the results</b><p class="hint">Download the numbers our code calculated, to use in your own class, report or analysis.</p></div>
+      <div class="export-btns">
+        <button class="btn btn-outline btn-sm" data-export="pair">Selected comparison (CSV)</button>
+        <button class="btn btn-outline btn-sm" data-export="scenes">All scenes (CSV)</button>
+        <button class="btn btn-outline btn-sm" data-export="pairs">All comparisons (CSV)</button>
+        <button class="btn btn-outline btn-sm" data-export="json">Full results (JSON)</button>
+        <button class="btn btn-outline btn-sm" data-export="chart">Chart (PNG)</button>
+        <button class="btn btn-outline btn-sm" data-export="map">Change map (PNG)</button>
+      </div>
+      <p class="hint" id="exportMsg" role="status"></p>
     </div>
     <div class="chapter-nav"><a href="#signals" class="btn btn-outline btn-sm">← Back</a><a href="#evidence" class="btn btn-primary">Next: Discover the evidence →</a></div>
   </div>
@@ -304,9 +317,9 @@
       <p class="lead">Here is how we got from satellite data to the numbers and stories you saw. Nothing is hidden.</p>
     </div>
     <div class="flow" style="margin-top:2.5rem">
-      <div class="card reveal"><h3>NISAR data</h3><p>We use <span class="ph">[16]</span> NISAR scenes of the Ciénaga Grande, freely available through the Alaska Satellite Facility.</p></div>
-      <div class="card reveal"><h3>Processing</h3><p>Our Python pipeline reads each scene, uses the HH and HV polarizations and prepares them for comparison. <span class="ph">[calibration, dB, speckle filter]</span></p></div>
-      <div class="card reveal"><h3>Computed results</h3><p>The code classifies each scene into water, dense mangrove, sparse mangrove and other, and compares pairs of dates in hectares. <span class="ph">[thresholds]</span></p></div>
+      <div class="card reveal"><h3>NISAR data</h3><p>We use 16 NISAR scenes of the Ciénaga Grande, freely available through the Alaska Satellite Facility.</p></div>
+      <div class="card reveal"><h3>Processing</h3><p>Our Python pipeline reads each scene, uses the HH and HV polarizations and prepares them for comparison. Each scene is cropped to the study area, averaged in 4×4 pixel blocks to reduce speckle, and converted to decibels (dB).</p></div>
+      <div class="card reveal"><h3>Computed results</h3><p>A pixel is open water when its HV signal is below −20.78 dB (a threshold found automatically on the Oct 29, 2025 scene). The code compares pairs of dates in hectares.</p></div>
       <div class="card reveal"><h3>AI explanation</h3><p>A language model turns only those computed results into plain language. It never sees raw data and is not allowed to add numbers.</p></div>
     </div>
     <p class="big-msg">“The AI only explains numbers we computed.”</p>
@@ -319,10 +332,10 @@
       <div>
         <h3>How each number was calculated</h3>
         <ul class="sources" style="margin-top:1rem">
-          <li><b>Hectares</b>Pixels of each class are counted and multiplied by the area of one pixel. <span class="ph">[Pixel size]</span></li>
-          <li><b>Mean HV (dB)</b>Average HV backscatter of the mangrove area in each scene, in decibels.</li>
-          <li><b>Decrease / stable / increase</b>Pixels whose HV changed by more than <span class="ph">[threshold]</span> dB between Date A and Date B are marked as decrease or increase; the rest are stable.</li>
-          <li><b>Confidence level</b>Based on <span class="ph">[season difference, water/tide conditions and data quality]</span>. High, medium or low.</li>
+          <li><b>Hectares</b>Pixels of each class are counted and multiplied by the area of one pixel. Each pixel is 20 m × 20 m, so 0.04 ha.</li>
+          <li><b>Vegetation HV (dB)</b>Median HV backscatter of the area that was never water on any date (stable vegetation), in decibels.</li>
+          <li><b>Became / stopped being water</b>Pixels that were not water on Date A and are water on Date B “became water”, and the reverse. Patches under 1 ha (25 pixels) are ignored as radar noise.</li>
+          <li><b>Confidence level</b>We compare the change with the normal change between two passes 12 days apart, with the same processing version. The bigger the difference, the more likely something really changed.</li>
         </ul>
       </div>
       <div>
@@ -330,7 +343,7 @@
         <ul class="sources" style="margin-top:1rem">
           <li><b>Short time series</b>We only have 16 dates, so we cannot see long-term trends yet.</li>
           <li><b>Water and tides</b>Water level and tides change the radar signal in a place with so much water. Some changes may come from water, not from the trees.</li>
-          <li><b>Approximate classification</b>Our classes come from simple thresholds, not from field surveys. Useful for exploring, not for official measurements.</li>
+          <li><b>Approximate classification</b>Water comes from a single threshold, not from field surveys. Useful for exploring, not for official measurements.</li>
           <li><b>No ground truth here</b>We have not compared our results with field data. Only field or optical data can confirm what happened on the ground.</li>
         </ul>
       </div>
@@ -344,7 +357,9 @@
       <li><b>SAR science stories</b>Peacock, A., An, K., Pinto, N., &amp; Lou, Y. (2024). NISAR ArcGIS StoryMaps. Zenodo. <a href="https://doi.org/10.5281/zenodo.10818833" target="_blank" rel="noopener">doi:10.5281/zenodo.10818833</a></li>
       <li><b>SAR Handbook</b>Flores-Anderson, A. I., et al. (2019). The SAR Handbook. NASA. <a href="https://doi.org/10.25966/nr2c-s697" target="_blank" rel="noopener">doi:10.25966/nr2c-s697</a></li>
       <li><b>NISAR science topics</b>NASA Science: NISAR Ecosystem, Water, Solid Earth and Cryosphere pages.</li>
-      <li><b>Chapter 1 sources</b><span class="ph">[Add the sources for the Ciénaga Grande facts.]</span></li>
+      <li><b>Ciénaga Grande (Minambiente)</b>Ministerio de Ambiente y Desarrollo Sostenible. Ciénaga Grande de Santa Marta. <a href="https://cienagagrande.minambiente.gov.co/" target="_blank" rel="noopener">cienagagrande.minambiente.gov.co</a></li>
+      <li><b>SFF Ciénaga Grande</b>Parques Nacionales Naturales de Colombia. Santuario de Fauna y Flora Ciénaga Grande de Santa Marta. <a href="https://www.parquesnacionales.gov.co/nuestros-parques/sff-cienaga-grande-de-santa-marta/#descripcion-general" target="_blank" rel="noopener">parquesnacionales.gov.co</a></li>
+      <li><b>Ciénaga Grande (Colparques)</b>Colparques. Santuario de Fauna y Flora Ciénaga Grande de Santa Marta. <a href="https://www.colparques.net/CIENAGA" target="_blank" rel="noopener">colparques.net</a></li>
     </ul>
     <div class="chapter-nav"><a href="#changes" class="btn btn-outline btn-sm">← Back</a><a href="dances.html" class="btn btn-primary">Back to Dances</a></div>
   </div>
@@ -358,13 +373,13 @@
       <div>
         <a href="index.html" class="logo"><span class="logo-txt"><b>EARTH</b><b>WALTZ</b></span></a>
         <p style="margin-top:.6rem">Turning radar data into stories about our changing planet.</p>
-        <p style="margin-top:1rem">Built by team HTTP Polaris for the NASA Space Apps Challenge 2026 · Challenge: Dancing with the SARs.</p>
+        <p style="margin-top:1rem">Built by team HTTP Polaris (Andrea Valentina Granados García &amp; Jesús Múnera) for the NASA Space Apps Challenge 2026 · Challenge: Dancing with the SARs.</p>
       </div>
       <div><h4>Data &amp; AI</h4><p>Contains data from NISAR (NASA-ISRO Synthetic Aperture Radar), openly available through the Alaska Satellite Facility DAAC. Data processing and results by the HTTP Polaris team.</p><p style="margin-top:.8rem">Explanations marked “AI-generated” were written by an AI model from computed results. Reviewed by the team.</p></div>
       <div><h4>Explore</h4><ul><li><a href="dances.html">All dances</a></li><li><a href="mangroves.html">Mangroves</a></li><li><a href="resources.html">Resources</a></li><li><a href="about.html">About</a></li><li><a href="#" id="repoLink">Source code</a></li></ul></div>
     </div>
     <div class="fine">
-      <p>Code released under <span class="ph">[license name]</span>. Text and original illustrations under <span class="ph">[license name]</span>. Landscape banner images are AI-generated illustrations.</p>
+      <p>Landscape banner images are AI-generated illustrations. Ciénaga Grande photos belong to their original authors.</p>
       <p style="margin-top:.5rem">Earth Waltz is an independent project made for the NASA Space Apps Challenge. NASA and ISRO do not endorse this website or its content.</p>
     </div>
   </div>
@@ -377,19 +392,9 @@
 </aside>
 
 <!-- AI Interpreter -->
-<button class="ai-fab" id="aiFab" aria-label="Open the AI Interpreter" aria-expanded="false">✦ Ask the AI</button>
-<div class="ai-panel" id="aiPanel" role="dialog" aria-label="AI Interpreter">
-  <header><b style="font-family:var(--font-display);font-size:1.2rem">AI Interpreter</b><button class="close" id="aiClose">Close</button></header>
-  <p style="font-size:.9rem;color:#ddd3ff">Ask me about what you see. I only explain numbers our code calculated.</p>
-  <div class="qs">
-    <button data-q="dark">Why is this area dark?</button>
-    <button data-q="trust">Can I trust this change?</button>
-    <button data-q="pol">What is a polarization?</button>
-  </div>
-  <div class="answer" id="aiAnswer" aria-live="polite"></div>
-  <p class="rule">The AI only explains numbers we computed.</p>
-</div>
 
 <script src="assets/js/main.js"></script>
+<script src="assets/js/extras.js"></script>
+<script src="assets/js/export.js" defer></script>
 </body>
 </html>

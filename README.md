@@ -235,3 +235,12 @@ El `package.json` contiene actualmente un script de prueba de marcador de posici
 - No subas `.env` ni copies la clave a código del navegador; las llamadas a Gemini se hacen desde el servidor.
 - No publiques escenas ni resultados si contienen información que no tengas autorización para compartir.
 - Si una clave se expone accidentalmente, revócala y genera una nueva.
+
+
+## Website update (v3)
+- Menu: "Dances" is a dropdown (hover) with the five dances.
+- Radar images are real NISAR scenes colored by `assets/scenes/` (generated from `salida/datos/*.npy`):
+  `color/hv_*.jpg`, `color/hh_*.jpg`, `color/rgb_*.jpg` (composite) and `change/change_A_B.png` for every pair of dates in the same processing version.
+  Pair numbers are stored in `data/results.json` → `pairs`.
+- NISAR video: put the file at `assets/video/nisar.mp4`.
+- Team photos: `assets/img/team/`. Gallery photos: `assets/photos/gallery/`.

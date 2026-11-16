@@ -62,7 +62,6 @@
     const st = n => { const k = Math.min(1, (n - t0) / 1400), v = Math.round(to * (1 - Math.pow(1 - k, 3))); el.textContent = v.toLocaleString('en-US'); if (k < 1) requestAnimationFrame(st); };
     requestAnimationFrame(st); cio.unobserve(el); }), { threshold: .6 });
   $$('[data-count]').forEach(el => cio.observe(el));
-  const r2 = $('#repoLink2'), r1 = $('#repoLink'); if (r2 && r1) r2.href = r1.href;
 })();
 
 /* v4: lilac stars follow the cursor, pause over reading content */
